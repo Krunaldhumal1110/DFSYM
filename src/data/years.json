@@ -1,7 +1,7 @@
 [
   {
     "year": 2025,
-    "banner": "src/assets/2025WhatsApp Image 2025-09-08 at 20.20.56_9262fd2b.jpg",
+    "banner": "/assets/2025WhatsApp Image 2025-09-08 at 20.20.56_9262fd2b.jpg",
     "shortDescription": "Theme: Future Vision. Modern, tech-inspired Ganesh mandap.",
     "description": "A futuristic mandap with interactive displays and smart lighting.",
     "photos": ["/assets/2025-1.jpg", "/assets/2025-2.jpg"],
@@ -9,7 +9,7 @@
   },
   {
     "year": 2024,
-    "banner": "src/assets/2024IMG-20240909-WA0012.jpg",
+    "banner": "/assets/2024IMG-20240909-WA0012.jpg",
     "shortDescription": "Theme: Golden Era. Luxurious gold-themed decor.",
     "description": "A lavish golden mandap with shimmering drapes and ornate details.",
     "photos": ["/assets/2024-1.jpg", "/assets/2024-2.jpg"],
@@ -17,7 +17,7 @@
   },
   {
     "year": 2023,
-    "banner": "src/assets/2023IMG-20230927-WA0042.jpg",
+    "banner": "/assets/2023IMG-20230927-WA0042.jpg",
     "shortDescription": "Theme: Spiritual Harmony. Fusion of different cultures.",
     "description": "A mandap blending elements from various Indian cultures, promoting harmony.",
     "photos": ["/assets/2023-1.jpg", "/assets/2023-2.jpg"],
@@ -25,7 +25,7 @@
   },
   {
     "year": 2022,
-    "banner": "src/assets/2022IMG-20220901-WA0009.jpg",
+    "banner": "/assets/2022IMG-20220901-WA0009.jpg",
     "shortDescription": "Theme: Heritage. Showcasing traditional Maharashtrian art.",
     "description": "Mandap decorated with Paithani sarees and Warli art, celebrating local heritage.",
     "photos": ["/assets/2022-1.jpg", "/assets/2022-2.jpg"],
@@ -33,7 +33,7 @@
   },
   {
     "year": 2021,
-    "banner": "src/assets/2021IMG-20210913-WA0002.jpg",
+    "banner": "/assets/2021IMG-20210913-WA0002.jpg",
     "shortDescription": "Theme: Rainbow Unity. Celebrating diversity and togetherness.",
     "description": "A rainbow-colored mandap symbolizing unity and hope after the pandemic.",
     "photos": ["/assets/2021-1.jpg", "/assets/2021-2.jpg"],
@@ -41,7 +41,7 @@
   },
   {
     "year": 2020,
-    "banner": "src/assets/2020IMG-20200825-WA0011.jpg",
+    "banner": "/assets/2020IMG-20200825-WA0011.jpg",
     "shortDescription": "Theme: Digital Ganesh. Virtual celebrations during lockdown.",
     "description": "A unique digital-themed mandap with LED screens and online darshan for devotees.",
     "photos": ["/assets/2020-1.jpg", "/assets/2020-2.jpg"],
@@ -49,7 +49,7 @@
   },
   {
     "year": 2019,
-    "banner": "src/assets/2019P_20190905_233958.jpg",
+    "banner": "/assets/2019P_20190905_233958.jpg",
     "shortDescription": "Theme: Eco-Friendly. Nature-inspired, sustainable decor.",
     "description": "Decorations made from recycled materials and plants, promoting environmental awareness.",
     "photos": ["/assets/2019-1.jpg", "/assets/2019-2.jpg"],
@@ -57,7 +57,7 @@
   },
   {
     "year": 2018,
-    "banner": "src/assets/2018IMG-20180913-WA0089.jpg",
+    "banner": "/assets/2018IMG-20180913-WA0089.jpg",
     "shortDescription": "Theme: Royal Palace. Majestic and grand Ganesh mandap.",
     "description": "A palace-inspired setup with golden accents and regal drapes, creating a royal ambiance.",
     "photos": ["/assets/2018-1.jpg", "/assets/2018-2.jpg"],
@@ -65,7 +65,7 @@
   },
   {
     "year": 2017,
-    "banner": "src/assets/2017D F S Y mandal 20171102_143721.jpg",
+    "banner": "/assets/2017D F S Y mandal 20171102_143721.jpg",
     "shortDescription": "Theme: Peacock Splendor. A colorful peacock-inspired decor.",
     "description": "Peacock feathers and vibrant colors adorned the mandap, representing beauty and grace.",
     "photos": ["/assets/2017D F S Y mandal 20171102_143721.jpg", "/assets/2017D F S Y mandal 20171102_143721.jpg"],
@@ -73,7 +73,7 @@
   },
   {
     "year": 2016,
-    "banner": "src/assets/2016D F S Y mandal 20171102_143721.jpg",
+    "banner": "/assets/2016D F S Y mandal 20171102_143721.jpg",
     "shortDescription": "Theme: Lotus Mandap. A floral celebration of Ganesh Chaturthi.",
     "description": "A vibrant lotus-themed mandap with intricate floral decorations, symbolizing purity and devotion.",
     "photos": ["/assets/2016-1.jpg", "/assets/2016-2.jpg"],
