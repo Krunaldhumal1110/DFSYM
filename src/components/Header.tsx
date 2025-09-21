@@ -16,7 +16,7 @@ const Header: React.FC = () => {
               <img src="/src/assets/logo.png" alt="Ganesh Group Logo" className="h-10 w-10 rounded-full flex-shrink-0" />
             </Link>
             <span className="font-bold text-[13px] xs:text-sm sm:text-xl md:text-2xl tracking-wide block max-w-[60vw] xs:max-w-[70vw] sm:max-w-none whitespace-nowrap overflow-ellipsis sm:whitespace-normal sm:overflow-visible">
-              Dakashini Faliya Sarvajanik Yuvak Mandal
+              Dakshini Faliya Sarvajanik Yuvak Mandal
             </span>
           </div>
           <div className="flex items-center gap-2 mt-2 sm:mt-0 w-full sm:w-auto justify-center sm:justify-end">
