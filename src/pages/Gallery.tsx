@@ -1,6 +1,5 @@
 
 import React from 'react';
-import years from '../data/years.json';
 import Gallery from '../components/Gallery';
 import { useLang } from '../i18n';
 
