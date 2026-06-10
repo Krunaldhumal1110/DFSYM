@@ -30,7 +30,7 @@ const AdminDashboard: React.FC = () => {
             <tr key={item.year} className="border-b">
               <td className="py-2 px-4 font-bold">{item.year}</td>
               <td className="py-2 px-4"><img src={item.banner} alt="Banner" className="h-12 rounded" /></td>
-              <td className="py-2 px-4">{item.shortDescription}</td>
+              <td className="py-2 px-4 max-w-xs truncate">{item.theme.en}</td>
               <td className="py-2 px-4 flex gap-2">
                 <button className="bg-yellow-400 text-white px-3 py-1 rounded hover:bg-yellow-500 transition">Edit</button>
                 <button className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 transition">Delete</button>

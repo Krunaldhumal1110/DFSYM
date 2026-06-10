@@ -1,31 +1,48 @@
-
-import React from 'react';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import Gallery from '../components/Gallery';
 import { useLang } from '../i18n';
+import PageHero from '../components/PageHero';
 
-
-// List of all image files in assets (excluding favicon, logo, react.svg)
 const assetImages = [
-  "2017D F S Y mandal 20171102_143721.jpg",
-  "2018IMG-20180913-WA0089.jpg",
-  "2019P_20190905_233958.jpg",
-  "2020IMG-20200825-WA0011.jpg",
-  "2021IMG-20210913-WA0002.jpg",
-  "2022IMG-20220901-WA0009.jpg",
-  "2023IMG-20230927-WA0042.jpg",
-  "2024IMG-20240909-WA0012.jpg",
-  "2025WhatsApp Image 2025-09-08 at 20.20.56_9262fd2b.jpg"
+  '2016/2016 theme image.jpg',
+  '2017/2017 theme image.jpg',
+  '2018/2018 theme image.jpg',
+  '2019/2019 theme image.jpg',
+  '2020/2020 theme image.jpg',
+  '2021/2021 theme image.jpg',
+  '2022/2022 theme image.jpg',
+  '2023/2023 theme image.jpg',
+  '2024/2024 theme image.jpg',
+  '2025/2025 theme image.jpg',
 ];
 
 const GalleryPage: React.FC = () => {
   const { t } = useLang();
-  // Remove duplicates and build full path
-  const allPhotos = Array.from(new Set(assetImages.map(f => `/assets/${f}`)));
+  const [modalImg, setModalImg] = useState<string | null>(null);
+  const allPhotos = Array.from(new Set(assetImages.map((f) => `/assets/${f}`)));
+
   return (
-    <main className="container mx-auto py-8 px-4">
-      <h1 className="text-3xl md:text-5xl font-bold text-orange-700 mb-4">{t('gallery')}</h1>
-      <Gallery photos={allPhotos} onPhotoClick={() => {}} />
-    </main>
+    <>
+      <PageHero title={t('gallery')} subtitle={t('photoGallery')} />
+      <main className="container mx-auto py-8 sm:py-12 px-3 sm:px-6">
+        <Gallery photos={allPhotos} onPhotoClick={setModalImg} />
+        {modalImg && (
+          <div
+            className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4"
+            onClick={() => setModalImg(null)}
+          >
+            <motion.img
+              src={modalImg}
+              alt="Gallery"
+              className="max-h-[85vh] max-w-full rounded-lg object-contain"
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+            />
+          </div>
+        )}
+      </main>
+    </>
   );
 };
 

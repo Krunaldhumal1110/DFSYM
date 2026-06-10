@@ -1,18 +1,43 @@
 import React from 'react';
 import { useLang } from '../i18n';
+import PageHero from '../components/PageHero';
 
 const Contact: React.FC = () => {
   const { t } = useLang();
   return (
-    <main className="container mx-auto py-8 px-4">
-      <h1 className="text-3xl md:text-5xl font-bold text-orange-700 mb-4">{t('contactUs')}</h1>
-      <p className="text-lg text-gray-800 max-w-2xl mb-4">{t('contactInfo')}</p>
-      <ul className="text-lg text-gray-700">
-        <li>{t('email')}: <a href="mailto:ganeshgroup@example.com" className="text-orange-600 hover:underline">ganeshgroup@example.com</a></li>
-        <li>{t('phone')}: <a href="tel:+911234567890" className="text-orange-600 hover:underline">+91 12345 67890</a></li>
-        <li>{t('instagram')}: <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">@ganeshgroup</a></li>
-      </ul>
-    </main>
+    <>
+      <PageHero title={t('contactUs')} subtitle={t('contactInfo')} />
+      <main className="container mx-auto py-8 sm:py-12 px-4 sm:px-6 max-w-2xl">
+        <ul className="card-premium p-6 sm:p-8 space-y-4 text-base sm:text-lg text-maroon-900/80">
+          <li className="flex flex-col sm:flex-row sm:gap-2">
+            <span className="font-semibold text-maroon-700 min-w-[6rem]">{t('email')}:</span>
+            <a href="mailto:dfsym.vadodara@gmail.com" className="text-saffron-600 hover:text-maroon-800 transition break-all">
+              dfsym.vadodara@gmail.com
+            </a>
+          </li>
+          <li className="flex flex-col sm:flex-row sm:gap-2">
+            <span className="font-semibold text-maroon-700 min-w-[6rem]">{t('phone')}:</span>
+            <a href="tel:+919876543210" className="text-saffron-600 hover:text-maroon-800 transition">
+              +91 98765 43210
+            </a>
+          </li>
+          <li className="flex flex-col sm:flex-row sm:gap-2">
+            <span className="font-semibold text-maroon-700 min-w-[6rem]">{t('instagram')}:</span>
+            <a
+              href="https://www.instagram.com/dfsym_2000?igsh=MTY2MDV6cmgxOGFoNg=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-saffron-600 hover:text-maroon-800 transition"
+            >
+              @dfsym_2000
+            </a>
+          </li>
+          <li className="pt-2 text-gray-600 text-sm sm:text-base">
+            📍 Vadodara, Gujarat, India
+          </li>
+        </ul>
+      </main>
+    </>
   );
 };
 

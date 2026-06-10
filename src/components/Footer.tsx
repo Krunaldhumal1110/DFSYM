@@ -1,44 +1,70 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useLang } from '../i18n';
 
-const Footer: React.FC = () => (
-  <motion.footer
-    className="bg-gradient-to-t from-orange-800 to-orange-600 text-white py-10 mt-10 shadow-inner border-t-4 border-orange-900"
-    initial={{ opacity: 0, y: 40 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, amount: 0.2 }}
-    transition={{ duration: 0.7 }}
-  >
-    <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-3 sm:px-4 gap-4 md:gap-0">
-      <div className="w-full md:w-auto text-center md:text-left">
-        <h2 className="font-extrabold text-2xl md:text-3xl text-yellow-300 drop-shadow mb-2 tracking-wide">Dakshini Faliya Yuvak Mandal</h2>
-        <ul className="mt-2 space-y-1">
-          <li>Serving community since 2001</li>
-          <li>Eco-friendly Ganesh idols (newspaper & bamboo since 2016)</li>
-          <li>37+ awards & certificates</li>
-          <li>Drawing & games competitions for all</li>
-          <li>Blood donation camps during Ganesh Utsav</li>
-          <li>Inspired by Tilak Ji, Shivaji Maharaj & Maharana Pratap</li>
-        </ul>
-        <p className="mt-4 italic text-yellow-200 text-base md:text-lg">
-          “Unity, Culture & Social Service – Our Way of Celebrating Ganesh Utsav.”
-        </p>
-        <p className="mt-2 text-sm md:text-base text-orange-100">© {new Date().getFullYear()} Dakshini Faliya Yuvak Mandal</p>
+const Footer: React.FC = () => {
+  const { t } = useLang();
+
+  return (
+    <motion.footer
+      className="bg-gradient-to-b from-maroon-900 to-sacred-dark text-gold-100 py-10 sm:py-12 mt-12 border-t border-gold-500/25"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
+          <div className="w-full lg:max-w-md">
+            <h2 className="font-display font-bold text-xl sm:text-2xl text-gradient-gold mb-3">
+              {t('orgName')}
+            </h2>
+            <ul className="space-y-2 text-sm sm:text-base text-gold-200/80">
+              <li>{t('since2000')} · Vadodara, Gujarat</li>
+              <li>{t('ecoSince2016')}</li>
+              <li>{t('memberMade')}</li>
+            </ul>
+            <p className="mt-4 italic text-gold-300/90 text-sm sm:text-base border-l-2 border-gold-500/50 pl-4">
+              {t('footerTagline')}
+            </p>
+            <p className="mt-4 text-xs text-gold-400/60">
+              © {new Date().getFullYear()} Dakshini Faliya Sarvajanik Yuvak Mandal
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              {['/history', '/celebrations', '/guests'].map((path) => (
+                <Link
+                  key={path}
+                  to={path}
+                  className="text-gold-300 hover:text-gold-100 transition underline-offset-4 hover:underline"
+                >
+                  {t(path.slice(1) as 'history' | 'celebrations' | 'guests')}
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-wrap gap-3 w-full lg:w-auto">
+            {[
+              { href: 'https://www.instagram.com/dfsym_2000?igsh=MTY2MDV6cmgxOGFoNg==', icon: 'fab fa-instagram', label: 'Instagram' },
+              { href: 'https://facebook.com', icon: 'fab fa-facebook-f', label: 'Facebook' },
+              { href: 'https://youtube.com', icon: 'fab fa-youtube', label: 'YouTube' },
+            ].map((social) => (
+              <a
+                key={social.label}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm bg-maroon-800/60 border border-gold-500/25 px-4 py-2.5 rounded-full hover:bg-gold-500/20 hover:border-gold-400/50 hover:scale-[1.02] transition-all duration-300"
+              >
+                <i className={`${social.icon} text-gold-400`} />
+                {social.label}
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
-      <div className="flex gap-2 xs:gap-3 sm:gap-4 mt-4 md:mt-0 w-full md:w-auto justify-center md:justify-end">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-300 flex items-center gap-1 xs:gap-2 text-base xs:text-lg md:text-xl transition-all duration-200 bg-orange-900 bg-opacity-30 px-2 xs:px-3 sm:px-4 py-2 rounded-full shadow hover:scale-105">
-          <i className="fab fa-facebook-f text-xl xs:text-2xl md:text-3xl"></i> Facebook
-        </a>
-        <a href="https://www.instagram.com/dfsym_2000?igsh=MTY2MDV6cmgxOGFoNg==" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-300 flex items-center gap-1 xs:gap-2 text-base xs:text-lg md:text-xl transition-all duration-200 bg-orange-900 bg-opacity-30 px-2 xs:px-3 sm:px-4 py-2 rounded-full shadow hover:scale-105">
-          <i className="fab fa-instagram text-xl xs:text-2xl md:text-3xl"></i> Instagram
-        </a>
-        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-300 flex items-center gap-1 xs:gap-2 text-base xs:text-lg md:text-xl transition-all duration-200 bg-orange-900 bg-opacity-30 px-2 xs:px-3 sm:px-4 py-2 rounded-full shadow hover:scale-105">
-          <i className="fab fa-youtube text-xl xs:text-2xl md:text-3xl"></i> YouTube
-        </a>
-      </div>
-    </div>
-  </motion.footer>
-);
+    </motion.footer>
+  );
+};
 
 export default Footer;
