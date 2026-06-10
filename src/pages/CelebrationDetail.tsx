@@ -71,7 +71,7 @@ const CelebrationDetail: React.FC = () => {
             {data.awards.map((award, idx) => (
               <li key={`${data.year}-award-${idx}`} className="text-maroon-900/85 text-sm sm:text-base flex gap-2">
                 <span className="text-gold-600 shrink-0">✦</span>
-                <span>{getLocalizedText(award, lang)}</span>
+                <span>{getLocalizedText(award.title, lang)}</span>
               </li>
             ))}
           </ul>
