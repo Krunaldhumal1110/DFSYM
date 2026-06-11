@@ -9,7 +9,24 @@ interface LazyImageProps {
   wrapperClassName?: string;
   priority?: boolean;
   onClick?: () => void;
+  sizes?: string;
 }
+
+// Generate responsive image srcSet with WebP support
+const generateSrcSet = (src: string) => {
+  const ext = src.split('.').pop() || 'jpg';
+  const base = src.substring(0, src.lastIndexOf('.'));
+  
+  // Support WebP if image is JPEG/PNG
+  const webpSrcSet = (ext === 'jpg' || ext === 'jpeg' || ext === 'png') 
+    ? `${base}.webp 1x, ${base}@2x.webp 2x`
+    : '';
+  
+  return {
+    webp: webpSrcSet,
+    fallback: `${src} 1x, ${base}@2x.${ext} 2x`,
+  };
+};
 
 const LazyImage: React.FC<LazyImageProps> = ({
   src,
@@ -18,9 +35,11 @@ const LazyImage: React.FC<LazyImageProps> = ({
   wrapperClassName = '',
   priority = false,
   onClick,
+  sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
 }) => {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
+  const srcSet = generateSrcSet(src);
 
   const handleLoad = useCallback(() => setLoaded(true), []);
   const handleError = useCallback(() => {
@@ -38,20 +57,31 @@ const LazyImage: React.FC<LazyImageProps> = ({
           {alt}
         </div>
       ) : (
-        <motion.img
-          src={src}
-          alt={alt}
-          loading={priority ? 'eager' : 'lazy'}
-          decoding="async"
-          fetchPriority={priority ? 'high' : 'auto'}
-          onLoad={handleLoad}
-          onError={handleError}
-          onClick={onClick}
-          className={`${className} ${onClick ? 'cursor-pointer' : ''}`}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: loaded ? 1 : 0 }}
-          transition={{ duration: 0.35, ease: 'easeOut' }}
-        />
+        <picture>
+          {srcSet.webp && (
+            <source
+              srcSet={srcSet.webp}
+              type="image/webp"
+              sizes={sizes}
+            />
+          )}
+          <motion.img
+            src={src}
+            srcSet={srcSet.fallback}
+            sizes={sizes}
+            alt={alt}
+            loading={priority ? 'eager' : 'lazy'}
+            decoding="async"
+            fetchPriority={priority ? 'high' : 'auto'}
+            onLoad={handleLoad}
+            onError={handleError}
+            onClick={onClick}
+            className={`${className} ${onClick ? 'cursor-pointer' : ''}`}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: loaded ? 1 : 0 }}
+            transition={{ duration: 0.35, ease: 'easeOut' }}
+          />
+        </picture>
       )}
     </div>
   );
