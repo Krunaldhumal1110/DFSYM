@@ -1,0 +1,145 @@
+[
+{
+"id": "media-coverage-2025",
+"year": "2025",
+"images": [
+"/assets/news articles/2025-na-1.jpg",
+"/assets/news articles/2025-na-bb-1.jpg",
+"/assets/news articles/2025-na-bs-1.jpg",
+"/assets/news articles/2025-na-ls-1.jpg",
+"/assets/news articles/2025-na-yp-1.jpg"
+],
+"title": {
+"en": "Media Coverage 2025",
+"hi": "मीडिया कवरेज 2025",
+"mr": "मीडिया कव्हरेज 2025",
+"gu": "મીડિયા કવરેજ 2025"
+},
+"description": {
+"en": "The activities and social initiatives of the mandal were featured in newspapers and media channels during 2025.",
+"hi": "2025 के दौरान मंडल की गतिविधियों और सामाजिक पहलों को समाचार पत्रों और मीडिया चैनलों में स्थान मिला।",
+"mr": "2025 मध्ये मंडळाच्या उपक्रमांना वृत्तपत्रे आणि माध्यमांमध्ये प्रसिद्धी मिळाली.",
+"gu": "2025 દરમિયાન મંડળની પ્રવૃત્તિઓ અને સામાજિક પહેલોને અખબારો અને મીડિયા ચેનલોમાં સ્થાન મળ્યું."
+},
+"newspapers": [
+"Divya Bhaskar",
+"Sandesh",
+"Gujarat Samachar",
+"Badodekar Bandhu",
+"Lok Satta",
+"YupPrabhav"
+],
+"channels": [
+"TV9 Gujarati",
+"Sandesh",
+"Badodekar Bandhu"
+]
+},
+
+{
+"id": "media-coverage-2023",
+"year": "2023",
+"images": [
+"/assets/news articles/2023-na-gm-1.jpg",
+"/assets/news articles/2023-na-yp-1.jpg"
+],
+"title": {
+"en": "Media Coverage 2023",
+"hi": "मीडिया कवरेज 2023",
+"mr": "मीडिया कव्हरेज 2023",
+"gu": "મીડિયા કવરેજ 2023"
+},
+"description": {
+"en": "Mandal events and community activities received recognition in local newspapers during 2023.",
+"hi": "2023 में मंडल के कार्यक्रमों और सामुदायिक गतिविधियों को स्थानीय समाचार पत्रों में स्थान मिला।",
+"mr": "2023 मध्ये मंडळाच्या कार्यक्रमांना स्थानिक वृत्तपत्रांमध्ये प्रसिद्धी मिळाली.",
+"gu": "2023 દરમિયાન મંડળના કાર્યક્રમો અને સામાજિક પ્રવૃત્તિઓને સ્થાનિક અખબારોમાં સ્થાન મળ્યું."
+},
+"newspapers": [
+"Gujarat Samachar",
+"YupPrabhav"
+],
+"channels": [
+"Badodekar Bandhu"
+]
+},
+
+{
+"id": "media-coverage-2022",
+"year": "2022",
+"images": [
+"/assets/news articles/2022-na-s-1.jpg"
+],
+"title": {
+"en": "Media Coverage 2022",
+"hi": "मीडिया कवरेज 2022",
+"mr": "मीडिया कव्हरेज 2022",
+"gu": "મીડિયા કવરેજ 2022"
+},
+"description": {
+"en": "The mandal's cultural and social activities were highlighted in newspapers during 2022.",
+"hi": "2022 में मंडल की सांस्कृतिक और सामाजिक गतिविधियों को समाचार पत्रों में प्रकाशित किया गया।",
+"mr": "2022 मध्ये मंडळाच्या सांस्कृतिक आणि सामाजिक उपक्रमांना वृत्तपत्रांमध्ये प्रसिद्धी मिळाली.",
+"gu": "2022 દરમિયાન મંડળની સાંસ્કૃતિક અને સામાજિક પ્રવૃત્તિઓને અખબારોમાં સ્થાન મળ્યું."
+},
+"newspapers": [
+"Sandesh"
+],
+"channels": []
+},
+
+{
+"id": "media-coverage-2017",
+"year": "2017",
+"images": [
+"/assets/news articles/2017-na-gs-1.jpg"
+],
+"title": {
+"en": "Media Coverage 2017",
+"hi": "मीडिया कवरेज 2017",
+"mr": "मीडिया कव्हरेज 2017",
+"gu": "મીડિયા કવરેજ 2017"
+},
+"description": {
+"en": "The mandal received media attention for its community initiatives during 2017.",
+"hi": "2017 में मंडल की सामाजिक पहलों को मीडिया में स्थान मिला।",
+"mr": "2017 मध्ये मंडळाच्या सामाजिक उपक्रमांना माध्यमांमध्ये प्रसिद्धी मिळाली.",
+"gu": "2017 દરમિયાન મંડળની સામાજિક પહેલોને મીડિયામાં સ્થાન મળ્યું."
+},
+"newspapers": [
+"Gujarat Samachar"
+],
+"channels": [
+"Badodekar Bandhu"
+]
+},
+
+{
+"id": "media-coverage-2016",
+"year": "2016",
+"images": [
+"/assets/news articles/2016-na-1.jpg",
+"/assets/news articles/2016-na-gs-1.jpg",
+"/assets/news articles/2016-na-swn-1.jpg"
+],
+"title": {
+"en": "Media Coverage 2016",
+"hi": "मीडिया कवरेज 2016",
+"mr": "मीडिया कव्हरेज 2016",
+"gu": "મીડિયા કવરેજ 2016"
+},
+"description": {
+"en": "Various newspapers covered the activities and achievements of the mandal in 2016.",
+"hi": "2016 में विभिन्न समाचार पत्रों ने मंडल की गतिविधियों और उपलब्धियों को प्रकाशित किया।",
+"mr": "2016 मध्ये विविध वृत्तपत्रांनी मंडळाच्या उपक्रमांना प्रसिद्धी दिली.",
+"gu": "2016 દરમિયાન વિવિધ અખબારોએ મંડળની પ્રવૃત્તિઓ અને સિદ્ધિઓને સ્થાન આપ્યું."
+},
+"newspapers": [
+"Gujarat Samachar",
+"Sayaji Weekly News"
+],
+"channels": [
+"Badodekar Bandhu"
+]
+}
+]

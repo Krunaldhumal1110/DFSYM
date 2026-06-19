@@ -32,11 +32,11 @@ const Card: React.FC<CardProps> = ({ year, banner, shortDescription, onClick }) 
         {year}
       </span>
     </div>
-    <div className="p-4 flex-1 flex flex-col border-t border-gold-100">
-      <p className="text-maroon-800 text-sm sm:text-base leading-snug line-clamp-3 font-medium group-hover:text-maroon-900 transition-colors">
+    <div className="p-4 flex-1 flex flex-col border-t border-gold-100 dark:border-slate-600">
+      <p className="text-maroon-800 dark:text-slate-200 text-sm sm:text-base leading-snug line-clamp-3 font-medium group-hover:text-maroon-900 dark:group-hover:text-slate-100 transition-colors">
         {shortDescription}
       </p>
-      <span className="mt-3 text-xs font-semibold text-saffron-600 uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">
+      <span className="mt-3 text-xs font-semibold text-saffron-600 dark:text-slate-400 uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">
         View →
       </span>
     </div>

@@ -26,6 +26,86 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  .dark body {
+    color: #f8fafc;
+    background-color: #050816;
+  }
+
+  .dark .bg-white {
+    background-color: #0f172a !important;
+    color: #f8fafc !important;
+  }
+
+  .dark .bg-ivory,
+  .dark .bg-ivory-50 {
+    background-color: #020617 !important;
+    color: #f8fafc !important;
+  }
+
+  .dark .bg-gold-50,
+  .dark .bg-gold-50\/30,
+  .dark .bg-gold-100,
+  .dark .bg-gold-200,
+  .dark .bg-saffron-600,
+  .dark .bg-saffron-500,
+  .dark .bg-maroon-50,
+  .dark .bg-maroon-100 {
+    background-color: #12233b !important;
+  }
+
+  /* Dark mode text color overrides - all text should be visible */
+  .dark .text-maroon-800,
+  .dark .text-maroon-700,
+  .dark .text-maroon-900,
+  .dark .text-maroon-600,
+  .dark .text-saffron-600,
+  .dark .text-gold-600,
+  .dark .text-saffron-500,
+  .dark .text-gray-800,
+  .dark .text-gray-700,
+  .dark .text-gray-600,
+  .dark .text-maroon-900\/80,
+  .dark .text-maroon-900\/85 {
+    color: #e2e8f0 !important;
+  }
+
+  /* Dark mode text opacity variants */
+  .dark .text-maroon-600\/60 {
+    color: rgba(226, 232, 240, 0.7) !important;
+  }
+
+  /* Dark mode border colors */
+  .dark .border-gold-200,
+  .dark .border-gold-300,
+  .dark .border-gold-500,
+  .dark .border-gold-500\/30,
+  .dark .border-gold-200\/60,
+  .dark .border-gold-400,
+  .dark .border-sacred-green\/30 {
+    border-color: rgba(148, 163, 184, 0.35) !important;
+  }
+
+  .dark .shadow-card {
+    box-shadow: 0 8px 28px rgba(15, 23, 42, 0.45);
+  }
+
+  .dark .card-premium {
+    background-color: #0f172a !important;
+    border-color: #334155 !important;
+    box-shadow: 0 12px 42px rgba(15, 23, 42, 0.45) !important;
+  }
+
+  .dark .btn-outline {
+    color: #f8fafc !important;
+    border-color: rgba(148, 163, 184, 0.35) !important;
+    background-color: rgba(15, 23, 42, 0.72) !important;
+  }
+
+  .theme-transition,
+  .theme-transition * {
+    transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+  }
+
   img {
     max-width: 100%;
     height: auto;

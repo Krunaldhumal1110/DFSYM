@@ -1,0 +1,366 @@
+/**
+ * Professional Website Optimizations
+ * Smooth scrolling, accessibility, performance
+ */
+
+/* =========================
+   ROOT & GENERAL
+   ========================= */
+
+html {
+  scroll-behavior: smooth;
+  /* Performance: Prevent reflow during scroll */
+  scrollbar-gutter: stable;
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+
+/* =========================
+   PERFORMANCE OPTIMIZATIONS
+   ========================= */
+
+/* Enable GPU acceleration for animations */
+.motion-safe {
+  transform: translateZ(0);
+  will-change: auto;
+}
+
+/* Smooth transitions */
+button,
+a,
+input,
+textarea,
+select {
+  transition: all 0.15s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Remove tap delay on mobile */
+button,
+a,
+input,
+textarea,
+select {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* =========================
+   SCROLLING PERFORMANCE
+   ========================= */
+
+/* GPU acceleration for scroll */
+.overflow-y-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Smooth scrolling on iOS */
+@supports (overflow-scrolling: touch) {
+  .overflow-y-auto {
+    overflow-scrolling: touch;
+  }
+}
+
+/* =========================
+   HOVER STATES (DESKTOP ONLY)
+   ========================= */
+
+@media (hover: hover) {
+
+  button:hover,
+  a:hover {
+    transform: translateY(-2px);
+  }
+
+  /* Reduce lift on links to prevent layout shift */
+  a {
+    position: relative;
+  }
+
+  button:active,
+  a:active {
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   MOBILE OPTIMIZATIONS
+   ========================= */
+
+@media (hover: none) and (pointer: coarse) {
+
+  /* Remove hover effects on touch devices */
+  button:hover,
+  a:hover {
+    transform: none;
+  }
+
+  /* Touch feedback */
+  button:active,
+  a:active {
+    opacity: 0.85;
+  }
+
+  /* Larger touch targets */
+  button,
+  a[role='button'] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* =========================
+   FOCUS STATES (ACCESSIBILITY)
+   ========================= */
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid;
+  outline-offset: 2px;
+  outline-color: currentColor;
+}
+
+/* =========================
+   REDUCED MOTION MEDIA QUERY
+   ========================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  button,
+  a,
+  input,
+  textarea,
+  select {
+    transition: none;
+  }
+
+  @media (hover: hover) {
+
+    button:hover,
+    a:hover {
+      transform: none;
+    }
+  }
+}
+
+/* =========================
+   DARK MODE / LIGHT MODE
+   ========================= */
+
+@media (prefers-color-scheme: dark) {
+  /* Adjust if needed for dark mode support */
+}
+
+@media (prefers-color-scheme: light) {
+  /* Default light mode */
+}
+
+/* =========================
+   IMAGE OPTIMIZATION
+   ========================= */
+
+img {
+  /* Prevent layout shift */
+  display: block;
+  height: auto;
+  max-width: 100%;
+
+  /* Smooth image loading */
+  transition: opacity 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Loading state */
+img[loading='lazy'] {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* =========================
+   CONTENT VISIBILITY
+   ========================= */
+
+/* Optimize rendering of off-screen content */
+main>* {
+  content-visibility: auto;
+}
+
+/* =========================
+   FONT OPTIMIZATION
+   ========================= */
+
+/* Prevent layout shift during font load */
+@font-face {
+  font-display: swap;
+}
+
+/* =========================
+   CUSTOM SCROLLBAR
+   ========================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: background 0.15s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+}
+
+/* =========================
+   GLASS MORPHISM PERFORMANCE
+   ========================= */
+
+.glass-header {
+  /* Use will-change sparingly */
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* =========================
+   FORM OPTIMIZATION
+   ========================= */
+
+input,
+textarea,
+select {
+  /* Prevent layout shift on focus */
+  border: 2px solid transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: currentColor;
+}
+
+/* =========================
+   ANIMATION UTILITIES
+   ========================= */
+
+.animate-in {
+  animation: slideIn 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-out {
+  animation: slideOut 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+/* =========================
+   RESPONSIVE TYPOGRAPHY
+   ========================= */
+
+/* Prevent font size adjustments on orientation change */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* =========================
+   MOTION SAFE CLASS
+   ========================= */
+
+.motion-reduce {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* =========================
+   CONTAINER QUERIES (Progressive Enhancement)
+   ========================= */
+
+@supports (container-type: inline-size) {
+  .card-container {
+    container-type: inline-size;
+  }
+
+  @container (max-width: 300px) {
+    .card {
+      padding: 1rem;
+    }
+  }
+
+  @container (min-width: 300px) {
+    .card {
+      padding: 1.5rem;
+    }
+  }
+}

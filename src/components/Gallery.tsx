@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import LazyImage from './ui/LazyImage';
 import { useMotionConfig } from '../hooks/useMotionConfig';
+import { viewportSettings, prefersReducedMotion } from '../config/animations';
+import { Helmet } from "react-helmet-async";
 
 interface GalleryProps {
   photos: string[];
@@ -10,24 +12,36 @@ interface GalleryProps {
 
 const Gallery: React.FC<GalleryProps> = ({ photos, onPhotoClick }) => {
   const { duration, viewportMargin, staggerDelay, itemVariants } = useMotionConfig();
+  const reduced = prefersReducedMotion();
+
+  const memoizedPhotos = useMemo(() => photos, [photos]);
 
   return (
+    <>
+     <Helmet>
+        <title>DFSYM | Dakshini Faliya Sarvajanik Yuvak Mandal</title>
+        <meta
+          name="description"
+          content="Dakshini Faliya Sarvajanik Yuvak Mandal (DFSYM) gallary , showcase of our events and activities"
+        />
+      </Helmet>
+
     <div className="columns-1 xs:columns-2 sm:columns-2 md:columns-3 gap-3 sm:gap-4">
-      {photos.map((src, idx) => (
+      {memoizedPhotos.map((src, idx) => (
         <motion.div
           key={src + idx}
           className="mb-3 sm:mb-4 break-inside-avoid"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: viewportMargin }}
+          viewport={{ ...viewportSettings, margin: viewportMargin }}
           variants={itemVariants}
-          transition={{ 
-            duration,
-            delay: Math.min(idx * staggerDelay, 0.3),
+          transition={{
+            duration: reduced ? 0.05 : duration,
+            delay: reduced ? 0 : Math.min(idx * staggerDelay, 0.3),
           }}
         >
           <div
-            className="rounded-xl overflow-hidden shadow-card border border-gold-200/40 cursor-pointer group"
+            className="rounded-xl overflow-hidden shadow-card border border-gold-200/40 dark:border-slate-600 cursor-pointer group"
             onClick={() => onPhotoClick(src)}
             role="button"
             tabIndex={0}
@@ -43,6 +57,7 @@ const Gallery: React.FC<GalleryProps> = ({ photos, onPhotoClick }) => {
         </motion.div>
       ))}
     </div>
+    </>
   );
 };
 

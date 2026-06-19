@@ -80,7 +80,7 @@ const YearCarousel: React.FC = () => {
             <button
               type="button"
               onClick={goToPrev}
-              className="carousel-nav-btn absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 z-20 flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-full bg-white/90 text-maroon-800 shadow-md backdrop-blur-sm transition hover:scale-105 active:scale-95 text-lg sm:text-xl font-bold"
+              className="carousel-nav-btn absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 z-20 flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-full bg-white/90 text-maroon-800 shadow-md backdrop-blur-sm transition hover:scale-105 active:scale-95 dark:bg-slate-900/80 dark:text-slate-100 text-lg sm:text-xl font-bold"
               aria-label="Previous"
             >
               ‹
@@ -88,7 +88,7 @@ const YearCarousel: React.FC = () => {
             <button
               type="button"
               onClick={goToNext}
-              className="carousel-nav-btn absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 z-20 flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-full bg-white/90 text-maroon-800 shadow-md backdrop-blur-sm transition hover:scale-105 active:scale-95 text-lg sm:text-xl font-bold"
+              className="carousel-nav-btn absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 z-20 flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-full bg-white/90 text-maroon-800 shadow-md backdrop-blur-sm transition hover:scale-105 active:scale-95 dark:bg-slate-900/80 dark:text-slate-100 text-lg sm:text-xl font-bold"
               aria-label="Next"
             >
               ›

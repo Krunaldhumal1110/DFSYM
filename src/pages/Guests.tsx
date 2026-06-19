@@ -32,28 +32,36 @@ const Guests: React.FC = () => {
               viewport={{ once: true }}
               transition={{ delay: idx * 0.05 }}
             >
-              <div className="bg-temple-gradient text-gold-50 px-4 sm:px-5 py-3 flex items-center justify-between gap-2">
+              <div className="bg-temple-gradient dark:bg-slate-800 text-gold-50 dark:text-slate-200 px-4 sm:px-5 py-3 flex items-center justify-between gap-2">
                 <span className="text-xl sm:text-2xl font-bold">{item.year}</span>
                 <Link
                   to={`/celebration/${item.year}`}
-                  className="text-xs sm:text-sm bg-white/20 hover:bg-white/30 px-3 py-1 rounded-full transition"
+                  className="text-xs sm:text-sm bg-white/20 hover:bg-white/30 dark:bg-white/10 dark:hover:bg-white/20 px-3 py-1 rounded-full transition"
                 >
                   {t('viewCelebration')}
                 </Link>
               </div>
               <div className="p-4 sm:p-5">
-                <p className="text-sm text-maroon-700 font-medium mb-3 line-clamp-2">
+                <p className="text-sm text-maroon-700 dark:text-slate-300 font-medium mb-3 line-clamp-2">
                   {getLocalizedText(item.theme as LocalizedText, lang)}
                 </p>
-                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">
+                <h3 className="text-sm font-semibold text-gray-500 dark:text-slate-400 uppercase tracking-wide mb-2">
                   {t('guestTitle')}
                 </h3>
                 <ul className="space-y-2">
                   {item.guests!.map((guest, guestIdx) => (
-                    <li key={`${item.year}-guest-${guestIdx}`} className="flex flex-col sm:flex-row sm:items-baseline gap-0.5 sm:gap-2">
-                      <span className="font-semibold text-gray-900">{getLocalizedText(guest.name, lang)}</span>
+                    <li
+                      key={`${item.year}-guest-${guestIdx}`}
+                      className="flex flex-col sm:flex-row sm:items-baseline gap-0.5 sm:gap-2"
+                    >
+                      <span className="font-semibold text-gray-900 dark:text-white">
+                        {getLocalizedText(guest.name, lang)}
+                      </span>
+
                       {guestRole(guest) && (
-                        <span className="text-sm text-saffron-600">— {guestRole(guest)}</span>
+                        <span className="text-sm text-saffron-600 dark:text-amber-400">
+                          — {guestRole(guest)}
+                        </span>
                       )}
                     </li>
                   ))}

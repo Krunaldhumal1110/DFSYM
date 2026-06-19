@@ -12,6 +12,8 @@ import { LangProvider } from './i18n';
 import { useSlowNetwork } from './hooks/useSlowNetwork';
 import { lazyRetry } from './utils/lazyRetry';
 import Awards from './pages/Awards';
+import Supporters from './components/Supporters';
+import NewsArticles from './components/NewsArticles';
 
 const Home = lazy(() => lazyRetry(() => import('./pages/Home')));
 const Celebrations = lazy(() => lazyRetry(() => import('./pages/Celebrations')));
@@ -54,7 +56,7 @@ const RouteFallback: React.FC = () => {
 };
 
 const AppLayout: React.FC = () => (
-  <div className="flex flex-col min-h-screen w-full bg-ivory mandala-pattern overflow-x-hidden">
+  <div className="theme-transition flex flex-col min-h-screen w-full bg-ivory dark:bg-slate-950 mandala-pattern overflow-x-hidden transition-colors duration-300">
     <Header />
     <main className="flex-1 w-full">
       <Suspense fallback={<RouteFallback />}>
@@ -83,6 +85,8 @@ const AppRoutes: React.FC = () => (
       <Route path="/admin/dashboard" element={<AdminDashboard />} />
       <Route path="/admin/edit" element={<AdminEdit />} />
       <Route path="/awards" element={<Awards />} />
+      <Route path="/news & Updates" element={<NewsArticles />} />
+      <Route path="/supporters" element={<Supporters />} />
     </Route>
   </Routes>
 );
