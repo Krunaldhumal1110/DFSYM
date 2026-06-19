@@ -3,7 +3,7 @@ import { useLang } from "../i18n";
 
 const Supporters = () => {
 
-    const { t, lang } = useLang();
+    const { t } = useLang();
 
   const supporters = [
     "Rajesh Patel",

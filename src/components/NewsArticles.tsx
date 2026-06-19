@@ -1,9 +1,9 @@
-import React, { useState } from "react";
 import { motion } from "framer-motion";
 import PageHero from "./PageHero";
 import mediaCoverage from "../data/NewsArticles.json";
 import { useLang } from "../i18n";
 import { Helmet } from "react-helmet-async";
+import { useState } from "react";
 
 const NewsArticles = () => {
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
