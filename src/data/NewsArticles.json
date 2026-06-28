@@ -32,7 +32,11 @@
 "channels": [
 "TV9 Gujarati",
 "Sandesh",
-"Badodekar Bandhu"
+"Badodekar Bandhu",
+"Spark Today News",
+"Sayaji Samachar",
+"Darpan News",
+"Our Vadadora"
 ]
 },
 
@@ -40,7 +44,7 @@
 "id": "media-coverage-2023",
 "year": "2023",
 "images": [
-"/assets/news articles/2023-na-gm-1.jpg",
+"/assets/news articles/2023-na-gm-1.jpeg",
 "/assets/news articles/2023-na-yp-1.jpg"
 ],
 "title": {
@@ -60,7 +64,9 @@
 "YupPrabhav"
 ],
 "channels": [
-"Badodekar Bandhu"
+"Badodekar Bandhu",
+"India News Gujarat",
+"IBN news"
 ]
 },
 
@@ -85,7 +91,12 @@
 "newspapers": [
 "Sandesh"
 ],
-"channels": []
+"channels": [
+    "TNN",
+"VNM News",
+"Lokmat",
+"BRG news"
+]
 },
 
 {

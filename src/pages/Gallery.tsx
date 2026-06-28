@@ -3,24 +3,12 @@ import { motion } from 'framer-motion';
 import Gallery from '../components/Gallery';
 import { useLang } from '../i18n';
 import PageHero from '../components/PageHero';
-
-const assetImages = [
-  '2016/2016 theme image.jpg',
-  '2017/2017 theme image.jpg',
-  '2018/2018 theme image.jpg',
-  '2019/2019 theme image.jpg',
-  '2020/2020 theme image.jpg',
-  '2021/2021 theme image.jpg',
-  '2022/2022 theme image.jpg',
-  '2023/2023 theme image.jpg',
-  '2024/2024 theme image.jpg',
-  '2025/2025 theme image.jpg',
-];
+import galleryData from "../data/gallery.json";
 
 const GalleryPage: React.FC = () => {
   const { t } = useLang();
   const [modalImg, setModalImg] = useState<string | null>(null);
-  const allPhotos = Array.from(new Set(assetImages.map((f) => `/assets/${f}`)));
+const allPhotos = galleryData.flatMap((year) => year.images);
 
   return (
     <>

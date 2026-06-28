@@ -7,11 +7,23 @@
    ROOT & GENERAL
    ========================= */
 
+   html,
+body{
+  margin: 0;
+}
+#root {
+  width: 100%;
+  /* overflow-x: hidden; */
+   overflow-x: clip; /* better than hidden */
+  background: #f8f4eb; /* same as your website background */
+}
+
 html {
   scroll-behavior: smooth;
   /* Performance: Prevent reflow during scroll */
   scrollbar-gutter: stable;
 }
+
 
 /* Respect user's motion preferences */
 @media (prefers-reduced-motion: reduce) {

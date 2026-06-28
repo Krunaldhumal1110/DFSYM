@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Gopal Namkeen",
+    "logo": "/assets/Sponsors logos/gopal_namkeen-removebg-preview.png",
+    "website": "https://www.gopalnamkeen.com/",
+    "category": {
+      "en": "Support Sponsor",
+      "hi": "सहयोगी प्रायोजक",
+      "mr": "सहयोगी प्रायोजक",
+      "gu": "સહયોગી સ્પોન્સર"
+    }
+  },
+  
+  {
+    "id": 2,
+    "name": "Badodekar Bandhu",
+    "logo": "/assets/Sponsors logos/barodekar bandhu.jpeg",
+    "website": "https://www.instagram.com/barodekar_bandhu/?hl=en",
+    "category": {
+      "en": "Support Sponsor",
+      "hi": "सहयोगी प्रायोजक",
+      "mr": "सहयोगी प्रायोजक",
+      "gu": "સહયોગી સ્પોન્સર"
+    }
+  },
+  {
+    "id": 3,
+    "name": "i'm giftwala",
+    "logo": "/assets/Sponsors logos/i'm giftwala.jpeg",
+    "website": "https://www.instagram.com/imgiftwala/",
+    "category": {
+     "en": "Support Sponsor",
+      "hi": "सहयोगी प्रायोजक",
+      "mr": "सहयोगी प्रायोजक",
+      "gu": "સહયોગી સ્પોન્સર"
+    }
+  },{
+    "id": 4,
+    "name": "Chakabhai Jewwllers",
+    "logo": "/assets/Sponsors logos/chakabhai jewwllers.jpeg",
+    "website": "https://rasajewelsbycbj.com/",
+    "category": {
+     "en": "Support Sponsor",
+      "hi": "सहयोगी प्रायोजक",
+      "mr": "सहयोगी प्रायोजक",
+      "gu": "સહયોગી સ્પોન્સર"
+    }
+  }
+]

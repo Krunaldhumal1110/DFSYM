@@ -87,19 +87,20 @@ const Header: React.FC = () => {
   const menuPanelRef = useRef<HTMLElement>(null);
   const menuToggleRef = useRef<HTMLButtonElement>(null);
 
-  const navItems = [
-    { to: '/', label: t('home'), icon: '⌂' },
-    { to: '/history', label: t('history'), icon: '◷' },
-    { to: '/celebrations', label: t('celebrations'), icon: '✦' },
-    { to: '/awards', label: t('awards'), icon: '🏅' },
-    { to: '/news & Updates', label: t('news & Updates'), icon: '📰' },
-    { to: '/supporters', label: t('supporters'), icon: '🙏' },
-    { to: '/guests', label: t('guests'), icon: '★' },
-    { to: '/gallery', label: t('gallery'), icon: '▣' },
-    { to: '/activities', label: t('activities'), icon: '◈' },
-    { to: '/about', label: t('about'), icon: 'ⓘ' },
-    { to: '/contact', label: t('contact'), icon: '✉' },
-  ];
+const navItems = [
+  { to: '/', label: t('home'), icon: '⌂' },
+  { to: '/history', label: t('history'), icon: '◷' },
+  { to: '/celebrations', label: t('celebrations'), icon: '✦' },
+  { to: '/awards', label: t('awards'), icon: '🏅' },
+  { to: '/news & Updates', label: t('newsAndUpdates'), icon: '📰' },
+  { to: '/supporters', label: t('supporters'), icon: '🙏' },
+  { to: '/guests', label: t('guests'), icon: '★' },
+  { to: '/sponsors', label: t('sponsors'), icon: '🤝' },
+  { to: '/gallery', label: t('gallery'), icon: '▣' },
+  { to: '/activities', label: t('activities'), icon: '◈' },
+  { to: '/about', label: t('about'), icon: 'ⓘ' },
+  { to: '/contact', label: t('contact'), icon: '✉' },
+];
 
   const closeMenu = useCallback(() => setMenuOpen(false), []);
 

@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
-import LazyImage from './ui/LazyImage';
 import { useMotionConfig } from '../hooks/useMotionConfig';
 import { viewportSettings, prefersReducedMotion } from '../config/animations';
 import { Helmet } from "react-helmet-async";
@@ -47,11 +46,11 @@ const Gallery: React.FC<GalleryProps> = ({ photos, onPhotoClick }) => {
             tabIndex={0}
             onKeyDown={(e) => e.key === 'Enter' && onPhotoClick(src)}
           >
-            <LazyImage
+            <img
               src={src}
               alt="Gallery"
               className="w-full group-hover:scale-105 transition-transform duration-300 will-change-transform"
-              wrapperClassName="w-full"
+              // wrapperClassName="w-full"
             />
           </div>
         </motion.div>

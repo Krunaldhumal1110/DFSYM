@@ -11,8 +11,8 @@ const Contact: React.FC = () => {
         <ul className="card-premium p-6 sm:p-8 space-y-4 text-base sm:text-lg text-maroon-900/80 dark:text-slate-200">
           <li className="flex flex-col sm:flex-row sm:gap-2">
             <span className="font-semibold text-maroon-700 dark:text-slate-300 min-w-[6rem]">{t('email')}:</span>
-            <a href="mailto:dfsym.vadodara@gmail.com" className="text-saffron-600 dark:text-slate-300 hover:text-maroon-800 dark:hover:text-slate-100 transition break-all">
-              dfsym.vadodara@gmail.com
+            <a href="mailto:dfsym2016@gmail.com" className="text-saffron-600 dark:text-slate-300 hover:text-maroon-800 dark:hover:text-slate-100 transition break-all">
+              dfsym2016@gmail.com
             </a>
           </li>
           <li className="flex flex-col sm:flex-row sm:gap-2">
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
             </a>
           </li>
           <li className="pt-2 text-gray-600 dark:text-slate-300 text-sm sm:text-base">
-            📍Tanaji penter lane, Behind Khanderao Market, Siddhnath Road, Vadodara, Gujarat, India
+            📍Dakshini faliya, Siddhnath Road, opposite little flowers school, Khanderao Market,  Vadodara, Gujarat, India
           </li>
         </ul>
       </main>

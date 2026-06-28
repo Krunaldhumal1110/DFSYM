@@ -14,6 +14,8 @@ import { lazyRetry } from './utils/lazyRetry';
 import Awards from './pages/Awards';
 import Supporters from './components/Supporters';
 import NewsArticles from './components/NewsArticles';
+import ActivityDetails from './pages/ActivityDetails';
+import Sponsors from './pages/Sponsors';
 
 const Home = lazy(() => lazyRetry(() => import('./pages/Home')));
 const Celebrations = lazy(() => lazyRetry(() => import('./pages/Celebrations')));
@@ -87,6 +89,8 @@ const AppRoutes: React.FC = () => (
       <Route path="/awards" element={<Awards />} />
       <Route path="/news & Updates" element={<NewsArticles />} />
       <Route path="/supporters" element={<Supporters />} />
+      <Route path="/activities/:id" element={<ActivityDetails />}/>
+      <Route path='/sponsors' element={<Sponsors />}/>
     </Route>
   </Routes>
 );

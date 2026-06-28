@@ -37,6 +37,7 @@ const Home: React.FC = () => {
     { to: '/awards', label: t('awards'), icon: '🏅' },
     { to: '/news & Updates', label: t('news & Updates'), icon: '📰' },
     { to: '/supporters', label: t('supporters'), icon: '🙏' },
+    { to: '/sponsors', label: t('sponsors'), icon: '🤝' },
   ];
 
   return (

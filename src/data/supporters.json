@@ -1,0 +1,310 @@
+{
+  "male": [
+    {
+      "id": 1,
+      "name": "Abhishek Mistry"
+    },
+    {
+      "id": 2,
+      "name": "Aditya Jadhav"
+    },
+    {
+      "id": 3,
+      "name": "Alpesh Metal"
+    },
+    {
+      "id": 4,
+      "name": "Late. Amit Mistry"
+    },
+    {
+      "id": 5,
+      "name": "Ashish Kute"
+    },
+    {
+      "id": 6,
+      "name": "Ashwin Jethi"
+    },
+    {
+      "id": 7,
+      "name": "Bhavesh Jethi"
+    },
+    {
+      "id": 8,
+      "name": "Chetan Mistry"
+    },
+    {
+      "id": 9,
+      "name": "Chirag Kute"
+    },
+    {
+      "id": 10,
+      "name": "Devendra Jangam"
+    },
+    {
+      "id": 11,
+      "name": "Divyesh Jadhav"
+    },
+    {
+      "id": 12,
+      "name": "Ganesh Pawar"
+    },
+    {
+      "id": 13,
+      "name": "Hemant Pawar"
+    },
+    {
+      "id": 14,
+      "name": "Hemant Thorve"
+    },
+    {
+      "id": 15,
+      "name": "Hitesh Rajput"
+    },
+    {
+      "id": 16,
+      "name": "Jatin Kharva"
+    },
+    {
+      "id": 17,
+      "name": "Late. Jayesh(Judai) Rajput"
+    },
+    {
+      "id": 18,
+      "name": "Jayesh Kalgude"
+    },
+    {
+      "id": 19,
+      "name": "Jayesh Patel (Jaylo)"
+    },
+    {
+      "id": 20,
+      "name": "Karan Jethi"
+    },
+    {
+      "id": 21,
+      "name": "Late. Kaliya Rajput"
+    },
+    {
+      "id": 22,
+      "name": "Kiran Palekar"
+    },
+    {
+      "id": 23,
+      "name": "Krunal Dhumal"
+    },
+    {
+      "id": 24,
+      "name": "Manoj Thakor"
+    },
+    {
+      "id": 25,
+      "name": "Mehul Kharva"
+    },
+    {
+      "id": 26,
+      "name": "Mehul Palekar"
+    },
+    {
+      "id": 27,
+      "name": "Mihir Jethi"
+    },
+    {
+      "id": 28,
+      "name": "Milind Ghadge"
+    },
+    {
+      "id": 29,
+      "name": "Mitesh Jangam"
+    },
+    {
+      "id": 30,
+      "name": "Nitin Khambe"
+    },
+    {
+      "id": 31,
+      "name": "Nitin Palekar"
+    },
+    {
+      "id": 32,
+      "name": "Pinal Gandhi"
+    },
+    {
+      "id": 33,
+      "name": "Late. Piyus Mistry"
+    },
+    {
+      "id": 34,
+      "name": "Pintu C.A."
+    },
+    {
+      "id": 35,
+      "name": "Pradip Tamboli"
+    },
+    {
+      "id": 36,
+      "name": "Prajval Kale"
+    },
+    {
+      "id": 37,
+      "name": "Pratham Palekar"
+    },
+    {
+      "id": 38,
+      "name": "Rajan Jangam"
+    },
+    {
+      "id": 39,
+      "name": "Ritesh Joshi"
+    },
+    {
+      "id": 40,
+      "name": "Sachin Devre"
+    },
+    {
+      "id": 41,
+      "name": "Sachin Jethi"
+    },
+    {
+      "id": 42,
+      "name": "Sagar Dodiya"
+    },
+    {
+      "id": 43,
+      "name": "Samir (Machhar)"
+    },
+    {
+      "id": 44,
+      "name": "Santosh Mahadik"
+    },
+    {
+      "id": 45,
+      "name": "Suraj Jangam"
+    },
+    {
+      "id": 46,
+      "name": "Varun Mahadik"
+    },
+    {
+      "id": 47,
+      "name": "Vinod Thakur"
+    },
+    {
+      "id": 48,
+      "name": "Viral Jangam"
+    },
+    {
+      "id": 49,
+      "name": "Yatin Nagare"
+    },
+    {
+      "id": 50,
+      "name": "Late. Yogesh Kute"
+    },
+    {
+      "id": 51,
+      "name": "Late. Yogesh Mahadik"
+    }
+  ],
+  "female": [
+    {
+      "id": 1,
+      "name": "Anita Mahadik"
+    },
+    {
+      "id": 2,
+      "name": "Anju Jadhav"
+    },
+    {
+      "id": 3,
+      "name": "Asha Kharva"
+    },
+    {
+      "id": 4,
+      "name": "Darshni Ghadge"
+    },
+    {
+      "id": 5,
+      "name": "Dhyani Tamboli"
+    },
+    {
+      "id": 6,
+      "name": "Drashti Jangam"
+    },
+    {
+      "id": 7,
+      "name": "Hrudaya Barve"
+    },
+    {
+      "id": 8,
+      "name": "Khushali Mahadik"
+    },
+    {
+      "id": 9,
+      "name": "Leena Dodiya"
+    },
+    {
+      "id": 10,
+      "name": "Rekha Dhumal"
+    },
+    {
+      "id": 11,
+      "name": "Sheela Jangam"
+    },
+    {
+      "id": 12,
+      "name": "Shruti Jangam"
+    },
+    {
+      "id": 13,
+      "name": "Sneha Dhumal"
+    },
+    {
+      "id": 14,
+      "name": "Surekha Jangam"
+    },
+    {
+      "id": 15,
+      "name": "Usha Jangam"
+    },
+    {
+      "id": 16,
+      "name": "Vaishali Jangam"
+    }
+  ],
+  "kids": [
+    {
+      "id": 1,
+      "name": "Malhar Palekar"
+    },
+    {
+      "id": 2,
+      "name": "Viha Ghadge"
+    },
+    {
+      "id": 3,
+      "name": "Zarna Dodiya"
+    }
+  ],
+  "memory": [
+    {
+      "id": 1,
+      "name": "Shri Amit Mistry",
+      "photo": "/assets/memory/amitMistry.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Shri Yogesh Mahadik",
+      "photo": "/assets/memory/yogeshMahadik.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Shri Yogesh Kute",
+      "photo": "/assets/memory/yogeshKute.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Shri Jayesh Rajput",
+      "photo": "/assets/memory/JudaiRajput.jpeg"
+    }
+  ]
+}

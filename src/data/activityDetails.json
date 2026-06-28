@@ -1,0 +1,205 @@
+[
+  {
+    "id": "blood-donation",
+    "title": {
+      "en": "Blood Donation Camp",
+      "hi": "रक्तदान शिविर",
+      "mr": "रक्तदान शिबीर",
+      "gu": "રક્તદાન શિબિર"
+    },
+    "description": {
+      "en": "Blood donation activity organized by our mandal.",
+      "hi": "हमारे मंडल द्वारा आयोजित रक्तदान शिविर।",
+      "mr": "आमच्या मंडळाने आयोजित केलेले रक्तदान शिबीर.",
+      "gu": "અમારા મંડળ દ્વારા આયોજિત રક્તદાન શિબિર."
+    },
+    "banner": "/assets/blood donation/blood donation banner.png",
+    "totalDonors": 228,
+    "years": [
+      {
+        "year": 2022,
+        "Donors": 86,
+        "images": [
+          "/assets/blood donation/2022-bd-1.jpg",
+            "/assets/blood donation/2022-bd-2.jpg",
+            "/assets/blood donation/2022-bd-3.jpg",
+            "/assets/blood donation/2022-bd-4.jpg",
+            "/assets/blood donation/2022-bd-5.jpg",
+            "/assets/blood donation/2022-bd-6.jpg",
+            "/assets/blood donation/2022-bd-7.jpg",
+            "/assets/blood donation/2022-bd-8.jpg"
+        ]
+      },
+      {
+        "year": 2023,
+        "Donors": 62,
+        "images": [
+               "/assets/blood donation/2023-bd-1.jpg",
+               "/assets/blood donation/2023-bd-2.jpg",
+               "/assets/blood donation/2023-bd-3.jpg"
+        ]
+      },
+      {
+        "year": 2024,
+        "Donors": 52,
+        "images": [
+          
+        ]
+      },
+      {
+        "year": 2025,
+        "Donors": 28,
+        "images": [
+          
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "drawing",
+    "title": {
+      "en": "Drawing Competition",
+      "hi": "चित्रकला प्रतियोगिता",
+      "mr": "चित्रकला स्पर्धा",
+      "gu": "ચિત્રકલા સ્પર્ધા"
+    },
+    "description": {
+      "en": "Drawing competition for children.",
+      "hi": "बच्चों के लिए चित्रकला प्रतियोगिता।",
+      "mr": "मुलांसाठी चित्रकला स्पर्धा.",
+      "gu": "બાળકો માટે ચિત્રકલા સ્પર્ધા."
+    },
+    "banner":"/assets/drawing compitition/2025-dc-17.jpg",
+    "years": [
+      {
+        "year": 2025,
+        "images": [
+          
+          "/assets/drawing compitition/2025-dc-2.jpg",
+          
+          "/assets/drawing compitition/2025-dc-4.jpg",
+          "/assets/drawing compitition/2025-dc-5.jpg",
+          "/assets/drawing compitition/2025-dc-6.jpg",
+          "/assets/drawing compitition/2025-dc-7.jpg",
+          "/assets/drawing compitition/2025-dc-8.jpg",
+          "/assets/drawing compitition/2025-dc-9.jpg",
+          "/assets/drawing compitition/2025-dc-10.jpg",
+          "/assets/drawing compitition/2025-dc-11.jpg",
+          "/assets/drawing compitition/2025-dc-12.jpg",
+          "/assets/drawing compitition/2025-dc-13.jpg",
+          "/assets/drawing compitition/2025-dc-14.jpg",
+          "/assets/drawing compitition/2025-dc-15.jpg",
+          "/assets/drawing compitition/2025-dc-16.jpg",
+          "/assets/drawing compitition/2025-dc-17.jpg"
+        ]
+      },
+      {
+        "year": 2024,
+        "images": [
+          "/assets/drawing compitition/2024-dc-1.jpg",
+          "/assets/drawing compitition/2024-dc-2.jpg"
+        ]
+      },
+      {
+        "year": 2023,
+        "images": [
+          "/assets/drawing compitition/2023-dc-1.jpg",
+          "/assets/drawing compitition/2023-dc-2.jpg",
+          "/assets/drawing compitition/2023-dc-3.jpg",
+          "/assets/drawing compitition/2023-dc-4.jpg",
+          "/assets/drawing compitition/2023-dc-5.jpg",
+          "/assets/drawing compitition/2023-dc-6.jpg",
+          "/assets/drawing compitition/2023-dc-7.jpg",
+          "/assets/drawing compitition/2023-dc-8.jpg",
+          "/assets/drawing compitition/2023-dc-9.jpg",
+          "/assets/drawing compitition/2023-dc-10.jpg",
+          "/assets/drawing compitition/2023-dc-11.jpg",
+          "/assets/drawing compitition/2023-dc-12.jpg",
+          "/assets/drawing compitition/2023-dc-13.jpg",
+          "/assets/drawing compitition/2023-dc-14.jpg"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "games",
+    "title": {
+      "en": "Games & Sports",
+      "hi": "खेल और खेलकूद",
+      "mr": "खेळ आणि क्रीडा",
+      "gu": "રમતો અને ક્રીડા"
+    },
+    "description": {
+      "en": "Games and sports organized by the mandal.",
+      "hi": "मंडल द्वारा आयोजित खेल गतिविधियाँ।",
+      "mr": "मंडळ आयोजित क्रीडा उपक्रम.",
+      "gu": "મંડળ દ્વારા આયોજિત રમતગમત પ્રવૃત્તિઓ."
+    },
+    "banner": "/assets/activities/2023-g17.jpg",
+    "years": [
+      {
+        "year": 2023,
+        "images": 
+        [
+          "/assets/activities/2023-g1.jpg",
+          "/assets/activities/2023-g2.jpg",
+          "/assets/activities/2023-g3.jpg",
+          "/assets/activities/2023-g4.jpg",
+          "/assets/activities/2023-g5.jpg",
+          "/assets/activities/2023-g6.jpg",
+          "/assets/activities/2023-g7.jpg",
+          "/assets/activities/2023-g8.jpg",
+          "/assets/activities/2023-g9.jpg",
+          "/assets/activities/2023-g10.jpg",
+          "/assets/activities/2023-g11.jpg",
+          "/assets/activities/2023-g12.jpg",
+          "/assets/activities/2023-g13.jpg",
+          "/assets/activities/2023-g14.jpg",
+          "/assets/activities/2023-g15.jpg",
+          "/assets/activities/2023-g16.jpg",
+          "/assets/activities/2023-g17.jpg",
+          "/assets/activities/2023-g18.jpg"
+        ]
+      },
+       {
+        "year": 2022,
+        "images": [
+          "/assets/activities/2022-g1.jpg",
+          "/assets/activities/2022-g2.jpg",
+          "/assets/activities/2022-g3.jpg",
+          "/assets/activities/2022-g4.jpg",
+          "/assets/activities/2022-g5.jpg",
+          "/assets/activities/2022-g6.jpg",
+          "/assets/activities/2022-g7.jpg"
+        ]
+      },
+      {
+        "year": 2019,
+        "images": [
+          "/assets/activities/2019-g1.jpg",
+          "/assets/activities/2019-g2.jpg",
+          "/assets/activities/2019-g3.jpg",
+          "/assets/activities/2019-g4.jpg",
+          "/assets/activities/2019-g5.jpg"
+        ]
+      },
+      {
+        "year": 2015,
+        "images": [
+          "/assets/activities/2015-g1.jpg",
+          "/assets/activities/2015-g2.jpg",
+          "/assets/activities/2015-g3.jpg",
+          "/assets/activities/2015-g4.jpg",
+          "/assets/activities/2015-g5.jpg",
+          "/assets/activities/2015-g6.jpg",
+          "/assets/activities/2015-g7.jpg",
+          "/assets/activities/2015-g8.jpg",
+          "/assets/activities/2015-g9.jpg",
+          "/assets/activities/2015-g10.jpg"
+        ]
+      }
+    ]
+  }
+]

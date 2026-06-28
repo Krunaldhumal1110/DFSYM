@@ -4,7 +4,9 @@
     "image": ["/assets/blood donation/2022-bd-1.jpg",
                "/assets/blood donation/2022-bd-2.jpg",
                "/assets/blood donation/2022-bd-3.jpg",
-               "/assets/blood donation/2022-bd-4.jpg"],
+               "/assets/blood donation/2022-bd-4.jpg"
+               
+              ],
     "title": {
       "en": "Blood Donation Camp",
       "hi": "रक्तदान शिविर",
@@ -40,9 +42,11 @@
   },
   {
     "id": "games",
-    "image": ["/assets/activities/2023-a-1.jpg",
-              "/assets/activities/2023-a-2.jpg",
-              "/assets/activities/2023-a-3.jpg"
+    "image": [
+              "/assets/activities/2023-g1.jpg",
+              "/assets/activities/2023-g2.jpg",
+              "/assets/activities/2023-g3.jpg",
+              "/assets/activities/2023-g4.jpg"
             ],
     "title": {
       "en": "Games & Sports",

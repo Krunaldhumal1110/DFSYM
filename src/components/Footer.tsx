@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-wrap gap-3 w-full lg:w-auto">
             {[
               { href: 'https://www.instagram.com/dfsym_2000?igsh=MTY2MDV6cmgxOGFoNg==', icon: 'fab fa-instagram', label: 'Instagram' },
-              { href: 'https://facebook.com', icon: 'fab fa-facebook-f', label: 'Facebook' },
+              { href: 'https://www.facebook.com/share/18PVLXyiHz/', icon: 'fab fa-facebook-f', label: 'Facebook' },
               { href: 'https://youtube.com', icon: 'fab fa-youtube', label: 'YouTube' },
             ].map((social) => (
               <a

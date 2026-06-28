@@ -5,7 +5,6 @@ import { useLang } from '../i18n';
 import historyData from '../data/history.json';
 import { getLocalizedText } from '../types/celebration';
 import type { LocalizedText } from '../types/celebration';
-// import logo from '../assets/DFSYM_Logo-removebg-preview.png';
 import logo from '/public/assets/DFSYM_Logo-removebg-preview.png';
 import '../App.css';
 
@@ -36,36 +35,36 @@ const HomeHero: React.FC = () => {
   }, [festivalDate]);
 
   return (
-     <section className="relative overflow-hidden bg-temple-gradient text-white dark:bg-slate-950 dark:text-slate-100">
+    <section className="relative overflow-hidden bg-temple-gradient text-white dark:bg-slate-950 dark:text-slate-100">
 
-<img
-  src="/assets/diwali_7_a-Photoroom.png"
-  alt=""
-  className="
-    hidden lg:block
+      <img
+        src="/assets/diwali_7_a-Photoroom.png"
+        alt=""
+        className="
+                    hidden lg:block
 
-    absolute
-    bottom-0
-    right-0
+                    absolute
+                    bottom-0
+                    right-0
 
-    translate-x-1/2
-    translate-y-1/2
+                    translate-x-1/2
+                    translate-y-1/2
 
-    w-[900px]
+                    w-[900px]
 
-    opacity-60
-    pointer-events-none
-    select-none
-    z-0
-  "
-/>
+                    opacity-60
+                    pointer-events-none
+                    select-none
+                    z-0
+                  "
+      />
 
       <div className="absolute inset-0 hero-glow" />
       <div className="absolute inset-0 mandala-pattern opacity-30" />
       <div className="absolute top-10 right-10 w-32 h-32 rounded-full bg-gold-400/10 blur-3xl animate-float hidden md:block" />
       <div className="absolute bottom-10 left-10 w-40 h-40 rounded-full bg-saffron-400/10 blur-3xl animate-float hidden md:block" style={{ animationDelay: '2s' }} />
 
-      <div className="container mx-auto px-4 sm:px-6 pt-20 sm:pt-24 md:pt-28 pb-6 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 pt-20 sm:pt-24 md:pt-28 pb-4 relative z-10">
         {/* <div className="flex flex-col md:flex-row items-center gap-8 md:gap-14 " > */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-14 max-w-7xl mx-auto">
           <motion.div
@@ -118,7 +117,7 @@ const HomeHero: React.FC = () => {
               {t('heroSubtitle')}
             </motion.p>
             <motion.div
-              className="mb-8 flex justify-center md:justify-start"              
+              className="mb-8 flex justify-center md:justify-start"
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.25 }}
@@ -127,14 +126,14 @@ const HomeHero: React.FC = () => {
               <div
                 className="
                             w-full
-                            max-w-md
-                            lg:max-w-lg
-                            rounded-[1.5rem]
+                            max-w-sm
+                            lg:max-w-md
+                            rounded-2xl
                             border
                             border-gold-300/30
                             bg-maroon-950/70
-                            p-4
-                            sm:p-6
+                            p-3
+                            sm:p-4
                             backdrop-blur-xl
                             shadow-lg
                             shadow-black/20
@@ -152,7 +151,7 @@ const HomeHero: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                   {['Days', 'Hours', 'Minutes', 'Seconds'].map((label, index) => {
                     const value = [
                       countdown.days,
@@ -165,23 +164,23 @@ const HomeHero: React.FC = () => {
                       <div
                         key={label}
                         className="
-            rounded-2xl
-            bg-gold-50/10
-            dark:bg-slate-700/30
-            py-4
-            px-2
-            text-center
-            min-h-[90px]
-            flex
-            flex-col
-            justify-center
-          "
+                                    rounded-xl
+                                    bg-gold-50/10
+                                    dark:bg-slate-700/30
+                                    py-3
+                                    px-2
+                                    text-center
+                                    min-h-[75px]
+                                    flex
+                                    flex-col
+                                    justify-center
+                                    "
                       >
-                        <p className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-gold-100">
+                        <p className="font-display text-xl sm:text-2xl lg:text-3xl font-bold text-gold-100">
                           {String(value).padStart(2, '0')}
                         </p>
 
-                        <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.15em] text-gold-300">
+                        <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.12em] text-gold-300">
                           {label}
                         </span>
                       </div>
@@ -194,7 +193,7 @@ const HomeHero: React.FC = () => {
                 </p>
 
                 {/* Buttons */}
-                <div className="mt-6 flex flex-col sm:flex-row gap-3">
+                <div className="mt-4 flex flex-col sm:flex-row gap-2">
                   <Link
                     to="/celebrations"
                     className="btn-primary flex-1 text-center"
