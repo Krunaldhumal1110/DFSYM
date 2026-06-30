@@ -1,10 +1,10 @@
 [
   {
     "id": "blood-donation",
-    "image": ["/assets/blood donation/2022-bd-1.jpg",
-               "/assets/blood donation/2022-bd-2.jpg",
-               "/assets/blood donation/2022-bd-3.jpg",
-               "/assets/blood donation/2022-bd-4.jpg"
+    "image": ["/assets/blood donation/2022-bd-1.webp",
+               "/assets/blood donation/2022-bd-2.webp",
+               "/assets/blood donation/2022-bd-3.webp",
+               "/assets/blood donation/2022-bd-4.webp"
                
               ],
     "title": {
@@ -22,11 +22,11 @@
   },
   {
     "id": "drawing",
-    "image": ["/assets/drawing compitition/2023-dc-1.jpg",
-              "/assets/drawing compitition/2023-dc-2.jpg",
-              "/assets/drawing compitition/2023-dc-3.jpg",
-              "/assets/drawing compitition/2024-dc-1.jpg",
-              "/assets/drawing compitition/2024-dc-2.jpg"],
+    "image": ["/assets/drawing compitition/2023-dc-1.webp",
+              "/assets/drawing compitition/2023-dc-2.webp",
+              "/assets/drawing compitition/2023-dc-3.webp",
+              "/assets/drawing compitition/2024-dc-1.webp",
+              "/assets/drawing compitition/2024-dc-2.webp"],
     "title": {
       "en": "Drawing Competition",
       "hi": "चित्रकला प्रतियोगिता",
@@ -43,10 +43,10 @@
   {
     "id": "games",
     "image": [
-              "/assets/activities/2023-g1.jpg",
-              "/assets/activities/2023-g2.jpg",
-              "/assets/activities/2023-g3.jpg",
-              "/assets/activities/2023-g4.jpg"
+              "/assets/activities/2023-g1.webp",
+              "/assets/activities/2023-g2.webp",
+              "/assets/activities/2023-g3.webp",
+              "/assets/activities/2023-g4.webp"
             ],
     "title": {
       "en": "Games & Sports",

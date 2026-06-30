@@ -264,7 +264,7 @@
     },
     {
       "id": 15,
-      "name": "Surekha Jangam"
+      "name": "Surekha Jadhav"
     },
     {
       "id": 16,
@@ -293,22 +293,22 @@
     {
       "id": 1,
       "name": "Shri Amit Mistry",
-      "photo": "/assets/memory/amitMistry.jpeg"
+      "photo": "/assets/memory/amitMistry.webp"
     },
     {
       "id": 2,
       "name": "Shri Yogesh Mahadik",
-      "photo": "/assets/memory/yogeshMahadik.jpeg"
+      "photo": "/assets/memory/yogeshMahadik.webp"
     },
     {
       "id": 3,
       "name": "Shri Yogesh Kute",
-      "photo": "/assets/memory/yogeshKute.jpeg"
+      "photo": "/assets/memory/yogeshKute.webp"
     },
     {
       "id": 4,
       "name": "Shri Jayesh Rajput",
-      "photo": "/assets/memory/JudaiRajput.jpeg"
+      "photo": "/assets/memory/JudaiRajput.webp"
     }
   ]
 }

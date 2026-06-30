@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useId, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useLang } from '../i18n';
 import type { Lang } from '../i18n/lang';
-import logo from '/assets/DFSYM_Logo-removebg-preview.png';
+import logo from '/assets/DFSYM_Logo-removebg-preview.webp';
 
 const HEADER_OFFSET = 'top-[64px] sm:top-[72px]';
 const DRAWER_HEIGHT = 'h-[calc(100dvh-64px)] sm:h-[calc(100dvh-72px)]';
@@ -115,9 +115,8 @@ const navItems = [
 
   useEffect(() => {
     const savedTheme = window.localStorage.getItem('dfsym-theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    setDarkMode(savedTheme ? savedTheme === 'dark' : prefersDark);
-  }, []);
+    // const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+setDarkMode(savedTheme ? savedTheme === 'dark' : false);  }, []);
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', darkMode);

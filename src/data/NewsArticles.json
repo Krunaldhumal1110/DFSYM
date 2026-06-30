@@ -3,11 +3,11 @@
 "id": "media-coverage-2025",
 "year": "2025",
 "images": [
-"/assets/news articles/2025-na-1.jpg",
-"/assets/news articles/2025-na-bb-1.jpg",
-"/assets/news articles/2025-na-bs-1.jpg",
-"/assets/news articles/2025-na-ls-1.jpg",
-"/assets/news articles/2025-na-yp-1.jpg"
+"/assets/news articles/2025-na-1.webp",
+"/assets/news articles/2025-na-bb-1.webp",
+"/assets/news articles/2025-na-bs-1.webp",
+"/assets/news articles/2025-na-ls-1.webp",
+"/assets/news articles/2025-na-yp-1.webp"
 ],
 "title": {
 "en": "Media Coverage 2025",
@@ -44,8 +44,8 @@
 "id": "media-coverage-2023",
 "year": "2023",
 "images": [
-"/assets/news articles/2023-na-gm-1.jpeg",
-"/assets/news articles/2023-na-yp-1.jpg"
+"/assets/news articles/2023-na-gm-1.webp",
+"/assets/news articles/2023-na-yp-1.webp"
 ],
 "title": {
 "en": "Media Coverage 2023",
@@ -74,7 +74,7 @@
 "id": "media-coverage-2022",
 "year": "2022",
 "images": [
-"/assets/news articles/2022-na-s-1.jpg"
+"/assets/news articles/2022-na-s-1.webp"
 ],
 "title": {
 "en": "Media Coverage 2022",
@@ -103,7 +103,7 @@
 "id": "media-coverage-2017",
 "year": "2017",
 "images": [
-"/assets/news articles/2017-na-gs-1.jpg"
+"/assets/news articles/2017-na-gs-1.webp"
 ],
 "title": {
 "en": "Media Coverage 2017",
@@ -129,9 +129,9 @@
 "id": "media-coverage-2016",
 "year": "2016",
 "images": [
-"/assets/news articles/2016-na-1.jpg",
-"/assets/news articles/2016-na-gs-1.jpg",
-"/assets/news articles/2016-na-swn-1.jpg"
+"/assets/news articles/2016-na-1.webp",
+"/assets/news articles/2016-na-gs-1.webp",
+"/assets/news articles/2016-na-swn-1.webp"
 ],
 "title": {
 "en": "Media Coverage 2016",

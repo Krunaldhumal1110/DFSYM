@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useMotionConfig } from '../hooks/useMotionConfig';
 import { viewportSettings, prefersReducedMotion } from '../config/animations';
 import { Helmet } from "react-helmet-async";
+import LazyImage from './ui/LazyImage';
 
 interface GalleryProps {
   photos: string[];
@@ -46,7 +47,7 @@ const Gallery: React.FC<GalleryProps> = ({ photos, onPhotoClick }) => {
             tabIndex={0}
             onKeyDown={(e) => e.key === 'Enter' && onPhotoClick(src)}
           >
-            <img
+            <LazyImage
               src={src}
               alt="Gallery"
               className="w-full group-hover:scale-105 transition-transform duration-300 will-change-transform"

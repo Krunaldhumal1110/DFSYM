@@ -5,8 +5,9 @@ import { useLang } from '../i18n';
 import historyData from '../data/history.json';
 import { getLocalizedText } from '../types/celebration';
 import type { LocalizedText } from '../types/celebration';
-import logo from '/public/assets/DFSYM_Logo-removebg-preview.png';
+import logo from '/public/assets/DFSYM_Logo-removebg-preview.webp';
 import '../App.css';
+import LazyImage from './ui/LazyImage';
 
 const HomeHero: React.FC = () => {
   const { lang, t } = useLang();
@@ -37,8 +38,8 @@ const HomeHero: React.FC = () => {
   return (
     <section className="relative overflow-hidden bg-temple-gradient text-white dark:bg-slate-950 dark:text-slate-100">
 
-      <img
-        src="/assets/diwali_7_a-Photoroom.png"
+      <LazyImage
+        src="/assets/diwali_7_a-Photoroom.webp"
         alt=""
         className="
                     hidden lg:block
@@ -57,6 +58,7 @@ const HomeHero: React.FC = () => {
                     select-none
                     z-0
                   "
+                  priority
       />
 
       <div className="absolute inset-0 hero-glow" />

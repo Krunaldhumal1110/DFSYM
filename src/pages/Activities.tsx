@@ -6,6 +6,7 @@ import { getLocalizedText } from '../types/celebration';
 import type { LocalizedText } from '../types/celebration';
 import PageHero from '../components/PageHero';
 import { Link } from 'react-router-dom';
+import LazyImage from '../components/ui/LazyImage';
 
 interface ActivityItem {
   id: string;
@@ -32,7 +33,7 @@ const Activities: React.FC = () => {
 
                 <div className="grid grid-cols-2 gap-2 p-2">
                   {item.image.slice(0, 4).map((img, index) => (
-                    <img
+                    <LazyImage
                       key={index}
                       src={img}
                       alt={`${getLocalizedText(item.title, lang)} ${index + 1}`}

@@ -1,6 +1,6 @@
-import React, { useState, useCallback } from 'react';
-import { motion } from 'framer-motion';
-import { Skeleton } from './Skeleton';
+import React, { useState, useCallback } from "react";
+import { motion } from "framer-motion";
+import { Skeleton } from "./Skeleton";
 
 interface LazyImageProps {
   src: string;
@@ -9,39 +9,23 @@ interface LazyImageProps {
   wrapperClassName?: string;
   priority?: boolean;
   onClick?: () => void;
-  sizes?: string;
 }
-
-// Generate responsive image srcSet with WebP support
-const generateSrcSet = (src: string) => {
-  const ext = src.split('.').pop() || 'jpg';
-  const base = src.substring(0, src.lastIndexOf('.'));
-  
-  // Support WebP if image is JPEG/PNG
-  const webpSrcSet = (ext === 'jpg' || ext === 'jpeg' || ext === 'png') 
-    ? `${base}.webp 1x, ${base}@2x.webp 2x`
-    : '';
-  
-  return {
-    webp: webpSrcSet,
-    fallback: `${src} 1x, ${base}@2x.${ext} 2x`,
-  };
-};
 
 const LazyImage: React.FC<LazyImageProps> = ({
   src,
   alt,
-  className = '',
-  wrapperClassName = '',
+  className = "",
+  wrapperClassName = "",
   priority = false,
   onClick,
-  sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
 }) => {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
-  const srcSet = generateSrcSet(src);
 
-  const handleLoad = useCallback(() => setLoaded(true), []);
+  const handleLoad = useCallback(() => {
+    setLoaded(true);
+  }, []);
+
   const handleError = useCallback(() => {
     setError(true);
     setLoaded(true);
@@ -50,38 +34,31 @@ const LazyImage: React.FC<LazyImageProps> = ({
   return (
     <div className={`relative overflow-hidden ${wrapperClassName}`}>
       {!loaded && (
-        <Skeleton className="absolute inset-0 w-full h-full z-10" rounded="none" />
+        <Skeleton
+          className="absolute inset-0 w-full h-full z-10"
+          rounded="none"
+        />
       )}
+
       {error ? (
-        <div className="absolute inset-0 flex items-center justify-center bg-ivory-200 text-maroon-700 text-sm">
-          {alt}
+        <div className="absolute inset-0 flex items-center justify-center bg-gray-200 text-sm">
+          Image not found
         </div>
       ) : (
-        <picture>
-          {srcSet.webp && (
-            <source
-              srcSet={srcSet.webp}
-              type="image/webp"
-              sizes={sizes}
-            />
-          )}
-          <motion.img
-            src={src}
-            srcSet={srcSet.fallback}
-            sizes={sizes}
-            alt={alt}
-            loading={priority ? 'eager' : 'lazy'}
-            decoding="async"
-            fetchPriority={priority ? 'high' : 'auto'}
-            onLoad={handleLoad}
-            onError={handleError}
-            onClick={onClick}
-            className={`${className} ${onClick ? 'cursor-pointer' : ''}`}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: loaded ? 1 : 0 }}
-            transition={{ duration: 0.35, ease: 'easeOut' }}
-          />
-        </picture>
+        <motion.img
+          src={src}
+          alt={alt}
+          loading={priority ? "eager" : "lazy"}
+          decoding="async"
+          fetchPriority={priority ? "high" : "auto"}
+          onLoad={handleLoad}
+          onError={handleError}
+          onClick={onClick}
+          className={`${className} ${onClick ? "cursor-pointer" : ""}`}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: loaded ? 1 : 0 }}
+          transition={{ duration: 0.3 }}
+        />
       )}
     </div>
   );

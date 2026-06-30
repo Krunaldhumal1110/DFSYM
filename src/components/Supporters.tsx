@@ -2,6 +2,7 @@ import  { useMemo, useState } from "react";
 import PageHero from "./PageHero";
 import supporters from "../data/supporters.json";
 import { useLang } from "../i18n";
+import LazyImage from "./ui/LazyImage";
 
 interface Person {
   id: number;
@@ -252,7 +253,7 @@ const Supporters = () => {
                 className="card-premium p-6 text-center"
               >
 
-                <img
+                <LazyImage
                   src={person.photo}
                   alt={person.name}
                   className="w-36 h-36 rounded-full object-cover mx-auto border-4 border-gold-400 shadow-lg"

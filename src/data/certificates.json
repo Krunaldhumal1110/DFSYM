@@ -2,34 +2,34 @@
   {
     "year": 2025,
     "certificates": [
-      "/assets/certificates/2025c1.jpg",
-      "/assets/certificates/2025c2.jpg"
+      "/assets/certificates/2025c1.webp",
+      "/assets/certificates/2025c2.webp"
     ]
   },
 
   {
     "year": 2023,
     "certificates": [
-      "/assets/certificates/2023c1.jpg",
-      "/assets/certificates/2023c2.jpg",
-      "/assets/certificates/2023c3.jpg"
+      "/assets/certificates/2023c1.webp",
+      "/assets/certificates/2023c2.webp",
+      "/assets/certificates/2023c3.webp"
     ]
   },
   {
     "year": 2022,
     "certificates": [
-      "/assets/certificates/2022c1.jpg",
-      "/assets/certificates/2022c2.jpg",
-      "/assets/certificates/2022c3.jpg",
-      "/assets/certificates/2022c4.jpg",
-      "/assets/certificates/2022c5.jpg"
+      "/assets/certificates/2022c1.webp",
+      "/assets/certificates/2022c2.webp",
+      "/assets/certificates/2022c3.webp",
+      "/assets/certificates/2022c4.webp",
+      "/assets/certificates/2022c5.webp"
     ]
   },
   {
     "year": 2021,
     "certificates": [
-      "/assets/certificates/2021c2.jpg",
-      "/assets/certificates/2021c3.jpg"
+      "/assets/certificates/2021c2.webp",
+      "/assets/certificates/2021c3.webp"
 
     ]
   },
@@ -37,22 +37,22 @@
   {
     "year": 2018,
     "certificates": [
-      "/assets/certificates/2018c1.jpg",
-      "/assets/certificates/2018c2.jpg"
+      "/assets/certificates/2018c1.webp",
+      "/assets/certificates/2018c2.webp"
     ]
   },
   {
     "year": 2017,
     "certificates": [
-      "/assets/certificates/2017c1.jpg",
-      "/assets/certificates/2017c2.jpg",
-      "/assets/certificates/2017c3.jpg"
+      "/assets/certificates/2017c1.webp",
+      "/assets/certificates/2017c2.webp",
+      "/assets/certificates/2017c3.webp"
     ]
   },
   {
     "year": 2016,
     "certificates": [
-      "/assets/certificates/2016c1.jpg"
+      "/assets/certificates/2016c1.webp"
     ]
   }
 

@@ -124,7 +124,7 @@ const Awards: React.FC = () => {
         {/* Trophy Showcase Image */}
         {/* <div className="relative rounded-3xl overflow-hidden mb-12">
           <img
-            src="/assets/awards/Toatal awards.jpg"
+            src="/assets/awards/Toatal awards.webp"
             alt="Awards Showcase"
             className="w-full h-[300px] md:h-[500px] object-contain"
           />
@@ -145,10 +145,11 @@ const Awards: React.FC = () => {
         <div className="rounded-3xl overflow-hidden bg-white dark:bg-slate-800 shadow-xl mb-12 border border-gold-200 dark:border-slate-700">
 
           {/* Image */}
-          <img
-            src="/assets/awards/Toatal awards.jpg"
+          <LazyImage
+            src="/assets/awards/Toatal awards.webp"
             alt="Awards Showcase"
             className="w-full object-contain bg-gray-100 dark:bg-slate-900"
+            priority
           />
 
           {/* Content */}
@@ -294,7 +295,7 @@ const Awards: React.FC = () => {
                     onClick={() => setSelectedImage(image)}
                   >
 
-                    <img
+                    <LazyImage
                       src={image}
                       alt=""
                       className="w-full h-[420px] object-contain bg-white dark:bg-slate-800"
@@ -318,7 +319,7 @@ const Awards: React.FC = () => {
             className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
             onClick={() => setSelectedImage(null)}
           >
-            <img
+            <LazyImage
               src={selectedImage}
               alt="Award"
               className="max-h-[90vh] max-w-full rounded-2xl"

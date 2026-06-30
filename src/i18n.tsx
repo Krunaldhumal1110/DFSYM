@@ -18,7 +18,7 @@ export const LangProvider = ({ children }: { children: ReactNode }) => {
   const [lang, setLang] = useState<Lang>(() => {
     const saved = localStorage.getItem('dfsym-lang');
     if (saved === 'en' || saved === 'hi' || saved === 'mr' || saved === 'gu') return saved;
-    return 'gu';
+    return 'en';
   });
 
   const setLangPersist = (l: Lang) => {

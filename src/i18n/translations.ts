@@ -98,6 +98,20 @@ export const translations: Record<Lang, Record<string, string>> = {
     memoryDescription:
       "Though they are no longer with us, their dedication, guidance, and selfless service continue to inspire our Mandal. Their values remain the foundation upon which we proudly carry forward our traditions.",
     foreverInHearts: "Forever in Our Hearts",
+    announcementThemeTitle: "Ganesh Mahotsav 2026 Theme",
+    announcementThemeMessage:
+      "This year's decoration is based on the glorious history of Chhatrapati Shivaji Maharaj. Visit our Mandal and experience the inspiring journey of Swarajya.",
+    announcementSponsorTitle: "Support Our Mandal",
+    announcementSponsorMessage:
+      "Become a sponsor and support our cultural, social and community activities. Your contribution helps us serve society better.",
+    announcementJoinTitle: "Join Our Mandal",
+    announcementJoinMessage:
+      "Become a volunteer and join our Mandal in organizing festivals, social service and community development activities.",
+    knowMore: "Know More",
+    sponsorUs: "Sponsor Us",
+    joinNow: "Join Now",
+    supporters: "Supporters",
+    sponsors: "Sponsors",
   },
   hi: {
     home: 'होम',
@@ -169,24 +183,24 @@ export const translations: Record<Lang, Record<string, string>> = {
       "हम सभी समाचार पत्रों, टेलीविजन चैनलों, पत्रकारों और मीडिया सहयोगियों का हार्दिक आभार व्यक्त करते हैं, जिन्होंने वर्षों से हमारी सांस्कृतिक, सामाजिक और सामुदायिक सेवा गतिविधियों को प्रमुखता से प्रकाशित किया है।",
     ourSupporters: "हमारे समर्थक",
     WallOfGratitude: "कृतज्ञता की दीवार",
-    supportersDescription: "आमचे सर्व समर्थक हे आमच्या मंडळाची खरी ताकद आहेत. त्यांच्या प्रेम, विश्वास आणि सहकार्यामुळे आम्ही दरवर्षी यशस्वी उपक्रम राबवू शकतो.",
-    totalSupporters: "एकूण समर्थक",
-    yearsOfSupport: "सहकार्याची वर्षे",
-    communityLove: "समाजाचे प्रेम",
-    searchSupporters: "समर्थक शोधा",
-    thankYouSupporters: "समर्थकांचे आभार",
-    supportersThanks: "आमच्या सर्व समर्थकांचे त्यांच्या सातत्यपूर्ण प्रेम, विश्वास आणि सहकार्याबद्दल मनःपूर्वक आभार.",
-    maleSupporters: "पुरुष समर्थक",
-    femaleSupporters: "महिला समर्थक",
-    kidsSupporters: "बाल समर्थक",
-    ourSponsors: "आमचे प्रायोजक",
-    sponsorsDescription: "आमचे प्रायोजक प्रत्येक उत्सव यशस्वी करण्यामध्ये महत्त्वाची भूमिका बजावतात. त्यांच्या मोलाच्या सहकार्याबद्दल आम्ही कृतज्ञ आहोत.",
-    totalSponsors: "एकूण प्रायोजक",
-    communitySupport: "समाजाचे सहकार्य",
+    supportersDescription: "हमारे सभी सहयोगी हमारे मंडल की सबसे बड़ी शक्ति हैं। उनके प्रेम, विश्वास और सहयोग से ही हम हर वर्ष सफल आयोजन कर पाते हैं।",
+    totalSupporters: "कुल सहयोगी",
+    yearsOfSupport: "सहयोग के वर्ष",
+    communityLove: "समुदाय का प्रेम",
+    searchSupporters: "सहयोगी खोजें",
+    thankYouSupporters: "सहयोगियों का धन्यवाद",
+    supportersThanks: "हम अपने सभी सहयोगियों का उनके निरंतर प्रेम, विश्वास और सहयोग के लिए हृदय से धन्यवाद करते हैं।",
+    maleSupporters: "पुरुष सहयोगी",
+    femaleSupporters: "महिला सहयोगी",
+    kidsSupporters: "बाल सहयोगी",
+    ourSponsors: "हमारे प्रायोजक",
+    sponsorsDescription: "हमारे प्रायोजक प्रत्येक आयोजन को सफल बनाने में महत्वपूर्ण भूमिका निभाते हैं। हम उनके उदार सहयोग के लिए आभारी हैं।",
+    totalSponsors: "कुल प्रायोजक",
+    communitySupport: "समुदाय का सहयोग",
     thankYou: "धन्यवाद",
-    specialThanks: "विशेष आभार",
-    sponsorsThanks: "आमच्या सर्व प्रायोजकांचे त्यांच्या उदार सहकार्याबद्दल मनःपूर्वक आभार.",
-    totalCertificates: "एकूण प्रमाणपत्रे",
+    specialThanks: "विशेष धन्यवाद",
+    sponsorsThanks: "हम अपने सभी प्रायोजकों का उनके उदार सहयोग और निरंतर समर्थन के लिए हार्दिक धन्यवाद करते हैं।",
+    totalCertificates: "कुल प्रमाणपत्र",
     awardShowcaseTitle: "वर्षों की उत्कृष्ट उपलब्धियाँ",
     awardShowcaseDescription:
       "वर्षों से प्राप्त पुरस्कारों, सम्मानों और प्रमाणपत्रों के माध्यम से हमारी उपलब्धियों और गौरवशाली यात्रा का उत्सव। प्रत्येक सम्मान हमारे दक्षिणी फालिया सार्वजनिक युवक मंडल परिवार की समर्पण भावना, टीमवर्क और अटूट सेवा भावना का प्रतीक है।",
@@ -195,6 +209,24 @@ export const translations: Record<Lang, Record<string, string>> = {
     memoryDescription:
       "यद्यपि वे आज हमारे बीच नहीं हैं, फिर भी उनका समर्पण, मार्गदर्शन और निःस्वार्थ सेवा हमारे मंडल को निरंतर प्रेरित करती है। उनके आदर्श और संस्कार ही वह मजबूत नींव हैं, जिन पर हम आज भी गर्व के साथ अपनी परंपराओं को आगे बढ़ा रहे हैं।",
     foreverInHearts: "सदैव हमारे दिलों में अमर रहेंगे",
+    announcementThemeTitle: "गणेश महोत्सव 2026 की थीम",
+    announcementThemeMessage:
+      "इस वर्ष की गणेश सजावट छत्रपति शिवाजी महाराज के गौरवशाली इतिहास पर आधारित है। स्वराज्य की प्रेरणादायक यात्रा का अनुभव लेने हमारे मंडल में अवश्य आएँ।",
+
+    announcementSponsorTitle: "हमारे मंडल को सहयोग दें",
+    announcementSponsorMessage:
+      "प्रायोजक बनकर हमारे सांस्कृतिक, सामाजिक एवं सेवा कार्यों में सहयोग दें। आपका योगदान समाज के लिए अत्यंत महत्वपूर्ण है।",
+
+    announcementJoinTitle: "हमारे मंडल से जुड़ें",
+    announcementJoinMessage:
+      "हमारे मंडल से जुड़ें और सामाजिक सेवा, उत्सव तथा सामुदायिक गतिविधियों में भाग लेकर समाज की सेवा करें।",
+
+    knowMore: "और जानें",
+    sponsorUs: "प्रायोजक बनें",
+    joinNow: "अभी जुड़ें",
+    newsAndUpdates: "समाचार एवं अपडेट",
+    supporters: "समर्थक",
+    sponsors: "प्रायोजक",
   },
   mr: {
     home: 'मुख्यपृष्ठ',
@@ -266,24 +298,24 @@ export const translations: Record<Lang, Record<string, string>> = {
       "वर्षानुवर्षे आमच्या सांस्कृतिक, सामाजिक आणि समाजसेवेच्या उपक्रमांना प्रसिद्धी देणाऱ्या सर्व वृत्तपत्रे, दूरदर्शन वाहिन्या, पत्रकार आणि मीडिया भागीदारांचे आम्ही मनःपूर्वक आभार मानतो.",
     ourSupporters: "आमचे समर्थक",
     WallOfGratitude: "कृतज्ञता की दीवार",
-    supportersDescription: "हमारे सभी सहयोगी हमारे मंडल की सबसे बड़ी शक्ति हैं। उनके प्रेम, विश्वास और सहयोग से ही हम हर वर्ष सफल आयोजन कर पाते हैं।",
-    totalSupporters: "कुल सहयोगी",
-    yearsOfSupport: "सहयोग के वर्ष",
-    communityLove: "समुदाय का प्रेम",
-    searchSupporters: "सहयोगी खोजें",
-    thankYouSupporters: "सहयोगियों का धन्यवाद",
-    supportersThanks: "हम अपने सभी सहयोगियों का उनके निरंतर प्रेम, विश्वास और सहयोग के लिए हृदय से धन्यवाद करते हैं।",
-    maleSupporters: "पुरुष सहयोगी",
-    femaleSupporters: "महिला सहयोगी",
-    kidsSupporters: "बाल सहयोगी",
-    ourSponsors: "हमारे प्रायोजक",
-    sponsorsDescription: "हमारे प्रायोजक प्रत्येक आयोजन को सफल बनाने में महत्वपूर्ण भूमिका निभाते हैं। हम उनके उदार सहयोग के लिए आभारी हैं।",
-    totalSponsors: "कुल प्रायोजक",
-    communitySupport: "समुदाय का सहयोग",
+    supportersDescription: "आमचे सर्व समर्थक हे आमच्या मंडळाची खरी ताकद आहेत. त्यांच्या प्रेम, विश्वास आणि सहकार्यामुळे आम्ही दरवर्षी यशस्वी उपक्रम राबवू शकतो.",
+    totalSupporters: "एकूण समर्थक",
+    yearsOfSupport: "सहकार्याची वर्षे",
+    communityLove: "समाजाचे प्रेम",
+    searchSupporters: "समर्थक शोधा",
+    thankYouSupporters: "समर्थकांचे आभार",
+    supportersThanks: "आमच्या सर्व समर्थकांचे त्यांच्या सातत्यपूर्ण प्रेम, विश्वास आणि सहकार्याबद्दल मनःपूर्वक आभार.",
+    maleSupporters: "पुरुष समर्थक",
+    femaleSupporters: "महिला समर्थक",
+    kidsSupporters: "बाल समर्थक",
+    ourSponsors: "आमचे प्रायोजक",
+    sponsorsDescription: "आमचे प्रायोजक प्रत्येक उत्सव यशस्वी करण्यामध्ये महत्त्वाची भूमिका बजावतात. त्यांच्या मोलाच्या सहकार्याबद्दल आम्ही कृतज्ञ आहोत.",
+    totalSponsors: "एकूण प्रायोजक",
+    communitySupport: "समाजाचे सहकार्य",
     thankYou: "धन्यवाद",
-    specialThanks: "विशेष धन्यवाद",
-    sponsorsThanks: "हम अपने सभी प्रायोजकों का उनके उदार सहयोग और निरंतर समर्थन के लिए हार्दिक धन्यवाद करते हैं।",
-    totalCertificates: "कुल प्रमाणपत्र",
+    specialThanks: "विशेष आभार",
+    sponsorsThanks: "आमच्या सर्व प्रायोजकांचे त्यांच्या उदार सहकार्याबद्दल मनःपूर्वक आभार.",
+    totalCertificates: "एकूण प्रमाणपत्रे",
     awardShowcaseTitle: "वर्षानुवर्षांची उत्कृष्ट कामगिरी",
     awardShowcaseDescription:
       "वर्षानुवर्षे मिळालेल्या पुरस्कार, सन्मान आणि प्रमाणपत्रांद्वारे आमच्या यशस्वी प्रवासाचा गौरव. प्रत्येक सन्मान हा दक्षिणी फालिया सार्वजनिक युवक मंडळ परिवाराच्या समर्पण, एकजूट आणि अखंड सेवाभावाचे प्रतीक आहे.",
@@ -292,6 +324,24 @@ export const translations: Record<Lang, Record<string, string>> = {
     memoryDescription:
       "आज ते आपल्या सोबत नसले तरी त्यांचे समर्पण, मार्गदर्शन आणि निःस्वार्थ सेवाभाव आजही आमच्या मंडळाला प्रेरणा देत आहेत. त्यांचे विचार आणि संस्कार हीच आमच्या परंपरेची भक्कम पायाभरणी असून त्याच अभिमानाने आम्ही ही परंपरा पुढे नेत आहोत.",
     foreverInHearts: "सदैव आमच्या हृदयात अमर राहतील",
+    announcementThemeTitle: "गणेश महोत्सव २०२६ ची थीम",
+    announcementThemeMessage:
+      "यावर्षीची गणेश सजावट छत्रपती शिवाजी महाराजांच्या गौरवशाली इतिहासावर आधारित आहे. स्वराज्याचा प्रेरणादायी इतिहास अनुभवण्यासाठी आमच्या मंडळाला अवश्य भेट द्या.",
+
+    announcementSponsorTitle: "आमच्या मंडळाला सहकार्य करा",
+    announcementSponsorMessage:
+      "प्रायोजक बनून आमच्या सांस्कृतिक, सामाजिक व सेवाभावी उपक्रमांना सहकार्य करा. आपले योगदान समाजसेवेसाठी मोलाचे ठरेल.",
+
+    announcementJoinTitle: "आमच्या मंडळात सहभागी व्हा",
+    announcementJoinMessage:
+      "आमच्या मंडळात सहभागी व्हा आणि उत्सव, सामाजिक सेवा व समाजोपयोगी उपक्रमांमध्ये आपले योगदान द्या.",
+
+    knowMore: "अधिक जाणून घ्या",
+    sponsorUs: "प्रायोजक बना",
+    joinNow: "सामील व्हा",
+    newsAndUpdates: "बातम्या व अद्यतने",
+    supporters: "समर्थक",
+    sponsors: "प्रायोजक",
   },
   gu: {
     home: 'હોમ',
@@ -389,5 +439,23 @@ export const translations: Record<Lang, Record<string, string>> = {
     memoryDescription:
       "ભલે આજે તેઓ આપણી વચ્ચે નથી, પરંતુ તેમનું સમર્પણ, માર્ગદર્શન અને નિઃસ્વાર્થ સેવાભાવ આજે પણ અમારા મંડળને સતત પ્રેરણા આપે છે. તેમના સંસ્કારો અને મૂલ્યો જ એ મજબૂત પાયો છે જેના આધારે અમે ગૌરવપૂર્વક અમારી પરંપરાઓને આગળ વધારી રહ્યા છીએ.",
     foreverInHearts: "સદાય અમારા હૃદયમાં અમર રહેશે",
+    announcementThemeTitle: "ગણેશ મહોત્સવ 2026 ની થીમ",
+    announcementThemeMessage:
+      "આ વર્ષની ગણેશ સજાવટ છત્રપતિ શિવાજી મહારાજના ગૌરવશાળી ઇતિહાસ પર આધારિત છે. સ્વરાજ્યની પ્રેરણાદાયી યાત્રાનો અનુભવ કરવા અમારા મંડળની જરૂર મુલાકાત લો.",
+
+    announcementSponsorTitle: "અમારા મંડળને સહયોગ આપો",
+    announcementSponsorMessage:
+      "પ્રાયોજક બની અમારા સાંસ્કૃતિક, સામાજિક અને સેવાકીય કાર્યક્રમોને સહયોગ આપો. આપનું યોગદાન સમાજ માટે અમૂલ્ય છે.",
+
+    announcementJoinTitle: "અમારા મંડળ સાથે જોડાઓ",
+    announcementJoinMessage:
+      "અમારા મંડળ સાથે જોડાઓ અને ઉત્સવો, સામાજિક સેવા તથા સમાજ વિકાસના કાર્યક્રમોમાં ભાગ લઈ સમાજની સેવા કરો.",
+
+    knowMore: "વધુ જાણો",
+    sponsorUs: "પ્રાયોજક બનો",
+    joinNow: "હમણાં જોડાઓ",
+    newsAndUpdates: "સમાચાર અને અપડેટ્સ",
+    supporters: "સમર્થકો",
+    sponsors: "પ્રાયોજકો",
   },
 };

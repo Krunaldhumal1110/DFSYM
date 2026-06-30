@@ -1,7 +1,7 @@
 [
   {
     "year": 2025,
-    "banner": "/assets/2025/2025 theme image.jpg",
+    "banner": "/assets/2025/2025 theme image.webp",
     "theme": {
       "en": "Bhagavad Gita – Path of Wisdom and Positivity",
       "hi": "भगवद गीता – ज्ञान और सकारात्मकता का मार्ग",
@@ -23,7 +23,7 @@
           "gu": "ઇકો ફ્રેન્ડલી શ્રી ગણેશ ઉત્સવ ટ્રસ્ટ ગણેશ સ્પર્ધા ગુજરાત → પ્રથમ પુરસ્કાર (લોકમાન્ય ટિલક પુરસ્કાર)"
         },
         "images": [
-          "/assets/awards/2025-award-1.jpeg"
+          "/assets/awards/2025-award-1.webp"
         ]
       },
       {
@@ -34,8 +34,8 @@
           "gu": "સ્પાર્ક ટુડે ન્યૂઝ → બીજું પુરસ્કાર"
         },
         "images": [
-          "/assets/awards/2025-award-2.jpeg",
-          "/assets/awards/2025-award-3.jpeg"
+          "/assets/awards/2025-award-2.webp",
+          "/assets/awards/2025-award-3.webp"
         ]
       },
       {
@@ -121,14 +121,14 @@
       }
     ],
     "photos": [
-      "/assets/2025/2025 theme image.jpg",
-      "/assets/2025/2025-theme data.jpg"
+      "/assets/2025/2025 theme image.webp",
+      "/assets/2025/2025-theme data.webp"
     ],
     "videos": []
   },
   {
     "year": 2024,
-    "banner": "/assets/2024/2024 theme image.jpg",
+    "banner": "/assets/2024/2024 theme image.webp",
     "theme": {
       "en": "Ayurveda – The Ancient Science of Healthy Living",
       "hi": "आयुर्वेद – स्वस्थ जीवन का प्राचीन विज्ञान",
@@ -266,20 +266,20 @@
       }
     ],
     "photos": [
-      "/assets/2024/2024 theme image.jpg",
-      "/assets/2024/2024-guest-1.jpg",
-      "/assets/2024/2024-guest-2.jpg",
-      "/assets/2024/2024-guest-3.jpg",
-      "/assets/2024/2024-guest-4.jpg",
-      "/assets/2024/2024-guest-5.jpg",
-      "/assets/2024/2024-guest-6.jpg",
-      "/assets/2024/2024-guest-7.jpg"
+      "/assets/2024/2024 theme image.webp",
+      "/assets/2024/2024-guest-1.webp",
+      "/assets/2024/2024-guest-2.webp",
+      "/assets/2024/2024-guest-3.webp",
+      "/assets/2024/2024-guest-4.webp",
+      "/assets/2024/2024-guest-5.webp",
+      "/assets/2024/2024-guest-6.webp",
+      "/assets/2024/2024-guest-7.webp"
     ],
     "videos": []
   },
   {
     "year": 2023,
-    "banner": "/assets/2023/2023 theme image.jpg",
+    "banner": "/assets/2023/2023 theme image.webp",
     "theme": {
       "en": "Peace Within the Temple – Path to Inner Calm",
       "hi": "मंदिर के भीतर शांति – आंतरिक शांति का मार्ग",
@@ -310,8 +310,8 @@
           "gu": "સ્પાર્ક ટુડે ન્યૂઝ → બીજું પુરસ્કાર"
         },
         "images": [
-          "/assets/awards/2023 award-1.jpg",
-          "/assets/awards/2023 award-2.jpg"
+          "/assets/awards/2023 award-1.webp",
+          "/assets/awards/2023 award-2.webp"
         ]
       },
       {
@@ -411,14 +411,14 @@
       }
     ],
     "photos": [
-      "/assets/2023/2023 theme image.jpg",
-      "/assets/2023/2023_guest-1.jpg"
+      "/assets/2023/2023 theme image.webp",
+      "/assets/2023/2023_guest-1.webp"
     ],
     "videos": []
   },
   {
     "year": 2022,
-    "banner": "/assets/2022/2022 theme image.jpg",
+    "banner": "/assets/2022/2022 theme image.webp",
     "theme": {
       "en": "Food is Divine",
       "hi": "भोजन दिव्य है",
@@ -545,15 +545,15 @@
       }
     ],
     "photos": [
-      "/assets/2022/2022 theme image.jpg",
-      "/assets/2023/2022 guest-1.jpg",
-      "/assets/2023/2023 guest-2.jpg"
+      "/assets/2022/2022 theme image.webp",
+      "/assets/2023/2022 guest-1.webp",
+      "/assets/2023/2023 guest-2.webp"
     ],
     "videos": []
   },
   {
     "year": 2021,
-    "banner": "/assets/2021/2021 theme image.jpg",
+    "banner": "/assets/2021/2021 theme image.webp",
     "theme": {
       "en": "Origin of Vishwamitri River – Pride of Vadodara",
       "hi": "विश्वामित्र नदी की उत्पत्ति – वडोदरा का गौरव",
@@ -617,14 +617,14 @@
       }
     ],
     "photos": [
-      "/assets/2021/2021 theme image.jpg",
-      "/assets/2021/2021 guest-1.jpg"
+      "/assets/2021/2021 theme image.webp",
+      "/assets/2021/2021 guest-1.webp"
     ],
     "videos": []
   },
   {
     "year": 2020,
-    "banner": "/assets/2020/2020 theme image.jpg",
+    "banner": "/assets/2020/2020 theme image.webp",
     "theme": {
       "en": "Corona Awareness – Small Celebration, Big Responsibility",
       "hi": "कोरोना जागरूकता – छोटा उत्सव, बड़ी जिम्मेदारी",
@@ -640,13 +640,13 @@
     "awards": [],
     "guests": [],
     "photos": [
-      "/assets/2020/2020 theme image.jpg"
+      "/assets/2020/2020 theme image.webp"
     ],
     "videos": []
   },
   {
     "year": 2019,
-    "banner": "/assets/2019/2019 theme image.jpg",
+    "banner": "/assets/2019/2019 theme image.webp",
     "theme": {
       "en": "Global Warming – Save Trees, Save Earth",
       "hi": "ग्लोबल वार्मिंग – पेड़ बचाओ, पृथ्वी बचाओ",
@@ -773,14 +773,14 @@
       }
     ],
     "photos": [
-      "/assets/2019/2019 theme image.jpg",
-      "/assets/2019/2019 guest-1.jpeg"
+      "/assets/2019/2019 theme image.webp",
+      "/assets/2019/2019 guest-1.webp"
     ],
     "videos": []
   },
   {
     "year": 2018,
-    "banner": "/assets/2018/2018 theme image.jpg",
+    "banner": "/assets/2018/2018 theme image.webp",
     "theme": {
       "en": "Operation Meghdoot – The Heroic Saga of Bana Singh",
       "hi": "ऑपरेशन मेघदूत – बाना सिंह की वीर गाथा",
@@ -802,10 +802,10 @@
           "gu": "વડોદરા ગણેશ ઉત્સવ શ્રેષ્ઠ સર્જનાત્મકતા પુરસ્કાર → પ્રથમ પુરસ્કાર"
         },
         "images": [
-          "/assets/awards/2018 award-1.jpg",
-          "/assets/awards/2018 award-3.jpg",
-          "/assets/awards/2018 guest-1.jpg",
-          "/assets/awards/2018 guest-2.jpg"
+          "/assets/awards/2018 award-1.webp",
+          "/assets/awards/2018 award-3.webp",
+          "/assets/awards/2018 guest-1.webp",
+          "/assets/awards/2018 guest-2.webp"
         ]
       },
       {
@@ -825,7 +825,7 @@
           "gu": "આપકા ન્યૂઝ શ્રેષ્ઠ સજાવટ → પ્રથમ પુરસ્કાર"
         },
         "images": [
-          "/assets/awards/2018 award-2.jpg"
+          "/assets/awards/2018 award-2.webp"
         ]
       },
       {
@@ -948,13 +948,13 @@
       }
     ],
     "photos": [
-      "/assets/2018/2018 theme image.jpg"
+      "/assets/2018/2018 theme image.webp"
     ],
     "videos": []
   },
   {
     "year": 2017,
-    "banner": "/assets/2017/2017 theme image.jpg",
+    "banner": "/assets/2017/2017 theme image.webp",
     "theme": {
       "en": "Lake Clean – Save Nature, Save Water",
       "hi": "झील साफ – प्रकृति बचाओ, पानी बचाओ",
@@ -1087,13 +1087,13 @@
       }
     ],
     "photos": [
-      "/assets/2017/2017 theme image.jpg"
+      "/assets/2017/2017 theme image.webp"
     ],
     "videos": []
   },
   {
     "year": 2016,
-    "banner": "/assets/2016/2016 theme image.jpg",
+    "banner": "/assets/2016/2016 theme image.webp",
     "theme": {
       "en": "Mushak no Modak Mahotsav",
       "hi": "मूषक नो मोदक महोत्सव",
@@ -1115,7 +1115,7 @@
           "gu": "અકોતા વિધાનસભા વોર્ડ નં. ૧૩ → પ્રથમ પુરસ્કાર"
         },
         "images": [
-          "/assets/awards/2016 award-1.jpg"
+          "/assets/awards/2016 award-1.webp"
         ]
       },
       {
@@ -1214,7 +1214,7 @@
       }
     ],
     "photos": [
-      "/assets/2016/2016 theme image.jpg"
+      "/assets/2016/2016 theme image.webp"
     ],
     "videos": []
   }

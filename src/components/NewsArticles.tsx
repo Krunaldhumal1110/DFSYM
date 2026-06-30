@@ -4,6 +4,7 @@ import mediaCoverage from "../data/NewsArticles.json";
 import { useLang } from "../i18n";
 import { Helmet } from "react-helmet-async";
 import { useState } from "react";
+import LazyImage from "./ui/LazyImage";
 
 const NewsArticles = () => {
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -100,7 +101,7 @@ const NewsArticles = () => {
                                     className="card-premium overflow-hidden cursor-pointer"
                                     onClick={() => setSelectedImage(img)}
                                 >
-                                    <img
+                                    <LazyImage
                                         src={img}
                                         alt={`Media Coverage ${item.year}`}
                                         className="w-full h-[500px] object-contain bg-white" />
@@ -219,7 +220,7 @@ const NewsArticles = () => {
                     className="fixed inset-0 bg-black/90 z-[9999] flex items-center justify-center p-4"
                     onClick={() => setSelectedImage(null)}
                 >
-                    <img
+                    <LazyImage
                         src={selectedImage}
                         alt=""
                         className="max-h-[90vh] max-w-[95vw] object-contain"

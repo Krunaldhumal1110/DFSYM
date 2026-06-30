@@ -3,6 +3,7 @@ import { useState } from "react";
 import PageHero from "../components/PageHero";
 import activityDetails from "../data/activityDetails.json";
 import { useLang } from "../i18n";
+import LazyImage from "../components/ui/LazyImage";
 
 interface ActivityYear {
   year: number;
@@ -60,7 +61,7 @@ const ActivityDetails = () => {
 
         {/* Banner */}
        <div className="bg-white dark:bg-slate-900 rounded-3xl p-3 shadow-lg mb-8">
-  <img
+  <LazyImage
     src={activity.banner}
     alt={activity.title[lang]}
     className="w-full max-h-[500px] object-contain mx-auto rounded-2xl"
@@ -112,7 +113,7 @@ const ActivityDetails = () => {
                   className="break-inside-avoid overflow-hidden rounded-2xl shadow-lg cursor-pointer mb-6"
                   onClick={() => setSelectedImage(img)}
                 >
-                  <img
+                  <LazyImage
                     src={img}
                     alt={`${activity.title[lang]} ${yearData.year}`}
                     className="w-full h-auto hover:scale-105 transition duration-500"
@@ -132,7 +133,7 @@ const ActivityDetails = () => {
             setSelectedImage(null)
           }
         >
-          <img
+          <LazyImage
             src={selectedImage}
             alt=""
             className="max-w-[95vw] max-h-[90vh] object-contain rounded-xl"

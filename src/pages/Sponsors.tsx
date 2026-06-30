@@ -3,6 +3,7 @@ import PageHero from "../components/PageHero";
 import sponsors from "../data/sponsors.json";
 import { useLang } from "../i18n";
 import { Helmet } from "react-helmet-async";
+import LazyImage from "../components/ui/LazyImage";
 
 const Sponsors = () => {
   const { t, lang } = useLang();
@@ -28,7 +29,7 @@ const Sponsors = () => {
           animate={{ opacity: 1 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold text-maroon-800 dark:text-white mb-4">
+          <h2 className="text-4xl font-bold text-maroon-800 dark:text-white mt-2 mb-4">
             🤝 {t("ourSponsors")}
           </h2>
 
@@ -80,7 +81,7 @@ const Sponsors = () => {
 
               <div className="h-32 flex items-center justify-center mb-5">
 
-                <img
+                <LazyImage
                   src={sponsor.logo}
                   alt={sponsor.name}
                   className="max-h-28 object-contain"

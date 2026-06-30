@@ -9,7 +9,7 @@ interface PageHeroProps {
 const PageHero: React.FC<PageHeroProps> = ({ title, subtitle }) => (
   <section className="relative overflow-hidden bg-temple-gradient dark:bg-slate-900/80 text-white pt-20 pb-12 sm:py-24 px-4 sm:px-6">
     <img
-  src="/assets/diwali_7_a-Photoroom.png"
+  src="/assets/diwali_7_a-Photoroom.webp"
   alt=""
   className="
     absolute

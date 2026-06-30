@@ -11,6 +11,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
+import LazyImage from '../components/ui/LazyImage';
 
 const History: React.FC = () => {
   const { lang, t } = useLang();
@@ -76,7 +77,7 @@ const History: React.FC = () => {
                     whileHover={{ y: -8 }}
                     className="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-xl border border-gray-100 dark:border-slate-700"
                   >
-                    <img
+                    <LazyImage
                       src={item.src}
                       alt={item.alt}
                       className="w-full h-64 object-cover"
